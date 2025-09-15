@@ -15,11 +15,9 @@ import { Header } from "@/components/layout/Header";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
+  <BrowserRouter>
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
         <Header />
         <Routes>
           <Route path="/" element={<Index />} />
@@ -27,9 +25,11 @@ const App = () => (
           <Route path="/results" element={<ResultsPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
+        <Toaster />
+        <Sonner />
+      </TooltipProvider>
+    </QueryClientProvider>
+  </BrowserRouter>
 );
 
 createRoot(document.getElementById("root")!).render(<App />);
