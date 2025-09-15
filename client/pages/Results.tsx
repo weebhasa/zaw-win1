@@ -31,11 +31,11 @@ export default function ResultsPage() {
         <h1 className="text-2xl font-bold">Your Results</h1>
         <p className="mt-1 text-muted-foreground">Score: {score} / {total} ({percent}%)</p>
         <div className="mt-4 flex gap-3">
-          <Button onClick={() => navigate(`/test?session=${hasNext ? sessionIndex + 1 : 0}`)}>
+          <Button onClick={() => navigate(`/test?session=${hasNext ? sessionIndex + 1 : sessionIndex}`)}>
             {hasNext ? "Next Session" : "Restart Test"}
           </Button>
           {hasNext && (
-            <Button variant="secondary" onClick={() => navigate("/test?session=0")}>Restart</Button>
+            <Button variant="secondary" onClick={() => navigate(`/test?session=${sessionIndex}`)}>Restart</Button>
           )}
         </div>
       </div>
