@@ -26,12 +26,20 @@ export default function Index() {
             Online Test Platform
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Take a 100-question test featuring multiple choice, true/false, and short answer questions. Your progress is tracked as you go, and detailed results are shown at the end.
+            Take a 100-question test featuring multiple choice, true/false, and
+            short answer questions. Your progress is tracked as you go, and
+            detailed results are shown at the end.
           </p>
           <div className="mt-8 flex flex-col gap-3">
             <div className="w-full sm:w-64">
-              <label className="mb-1 block text-sm font-medium text-foreground">Choose session</label>
-              <Select value={session} onValueChange={setSession} disabled={loading}>
+              <label className="mb-1 block text-sm font-medium text-foreground">
+                Choose session
+              </label>
+              <Select
+                value={session}
+                onValueChange={setSession}
+                disabled={loading}
+              >
                 <SelectTrigger>
                   <SelectValue placeholder="Select session" />
                 </SelectTrigger>
@@ -56,9 +64,16 @@ export default function Index() {
           <div className="rounded-2xl border bg-card p-6 sm:p-8">
             <h2 className="text-xl font-semibold">How it works</h2>
             <ul className="mt-4 grid list-disc gap-3 pl-6 text-muted-foreground">
-              <li>One question displayed at a time with Next/Previous navigation.</li>
-              <li>A progress bar indicates how many questions you have answered.</li>
-              <li>Results page shows your score, correct answers, and explanations.</li>
+              <li>
+                One question displayed at a time with Next/Previous navigation.
+              </li>
+              <li>
+                A progress bar indicates how many questions you have answered.
+              </li>
+              <li>
+                Results page shows your score, correct answers, and
+                explanations.
+              </li>
               <li>Restart the test anytime after submission.</li>
               <li>Fully responsive and mobile-friendly UI.</li>
             </ul>
