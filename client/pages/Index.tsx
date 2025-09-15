@@ -28,7 +28,7 @@ export default function Index() {
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
             Take a 100-question test featuring multiple choice, true/false, and short answer questions. Your progress is tracked as you go, and detailed results are shown at the end.
           </p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div className="mt-8 flex flex-col gap-3">
             <div className="w-full sm:w-64">
               <label className="mb-1 block text-sm font-medium text-foreground">Choose session</label>
               <Select value={session} onValueChange={setSession} disabled={loading}>
@@ -44,7 +44,7 @@ export default function Index() {
                 </SelectContent>
               </Select>
             </div>
-            <Button asChild size="lg" className="sm:ml-2">
+            <Button asChild size="lg" className="w-full sm:w-64">
               <Link to={`/test?session=${session}`}>Start Test</Link>
             </Button>
           </div>
