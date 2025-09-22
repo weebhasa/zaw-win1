@@ -31,6 +31,25 @@ function transformPaper(paper: any[]): Question[] {
   });
 }
 
+function findOptionIndex(options: string[] | undefined, label: string): number {
+  if (!options) return -1;
+  const target = label.trim().toLowerCase();
+  return options.findIndex((o) => String(o).trim().toLowerCase() === target);
+}
+
+function applyOverrides(list: Question[]): Question[] {
+  return list.map((q) => {
+    const text = String(q.question || "").toLowerCase();
+    if (q.type === "multiple" && text.includes("shutters") && text.includes("bottom support") && text.includes("beam")) {
+      const idx = findOptionIndex(q.options, "21 days");
+      if (idx >= 0) {
+        return { ...q, correctAnswer: idx };
+      }
+    }
+    return q;
+  });
+}
+
 export function useQuestions() {
   const [questions, setQuestions] = useState<Question[] | null>(null);
   const [loading, setLoading] = useState(true);
@@ -59,6 +78,7 @@ export function useQuestions() {
         } else {
           normalized = data as Question[];
         }
+        normalized = applyOverrides(normalized);
         if (mounted) setQuestions(normalized);
       } catch (e: any) {
         if (mounted) setError(e?.message ?? "Unknown error");
