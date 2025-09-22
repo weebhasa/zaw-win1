@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import type { Question } from "@/components/quiz/QuestionCard";
 
-const PAPER_URL = "https://cdn.builder.io/o/assets%2Fcd542e002c72460ba3c19abfa4b6d1f6%2Fc23fd364ba984ce0a4b4fe408f37c95e?alt=media&token=c385f910-dd60-4cd6-9503-fb5f1481f60f&apiKey=cd542e002c72460ba3c19abfa4b6d1f6";
+const PAPER_URL =
+  "https://cdn.builder.io/o/assets%2Fcd542e002c72460ba3c19abfa4b6d1f6%2Fc23fd364ba984ce0a4b4fe408f37c95e?alt=media&token=c385f910-dd60-4cd6-9503-fb5f1481f60f&apiKey=cd542e002c72460ba3c19abfa4b6d1f6";
 
 function stripLabel(opt: string) {
   // Remove leading labels like "A:", "B:", etc.
@@ -40,7 +41,12 @@ function findOptionIndex(options: string[] | undefined, label: string): number {
 function applyOverrides(list: Question[]): Question[] {
   return list.map((q) => {
     const text = String(q.question || "").toLowerCase();
-    if (q.type === "multiple" && text.includes("shutters") && text.includes("bottom support") && text.includes("beam")) {
+    if (
+      q.type === "multiple" &&
+      text.includes("shutters") &&
+      text.includes("bottom support") &&
+      text.includes("beam")
+    ) {
       const idx = findOptionIndex(q.options, "21 days");
       if (idx >= 0) {
         return { ...q, correctAnswer: idx };
@@ -67,13 +73,21 @@ export function useQuestions() {
           if (!res.ok) throw new Error("Failed to fetch external paper");
           data = await res.json();
         } catch {
-          const resLocal = await fetch("/questions.json", { cache: "no-store" });
-          if (!resLocal.ok) throw new Error(`Failed to load questions: ${resLocal.status}`);
+          const resLocal = await fetch("/questions.json", {
+            cache: "no-store",
+          });
+          if (!resLocal.ok)
+            throw new Error(`Failed to load questions: ${resLocal.status}`);
           data = await resLocal.json();
         }
 
         let normalized: Question[];
-        if (Array.isArray(data) && data.length && data[0]?.choices && data[0]?.answer) {
+        if (
+          Array.isArray(data) &&
+          data.length &&
+          data[0]?.choices &&
+          data[0]?.answer
+        ) {
           normalized = transformPaper(data);
         } else {
           normalized = data as Question[];
