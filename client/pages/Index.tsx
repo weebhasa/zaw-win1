@@ -20,10 +20,14 @@ export default function Index() {
     return Math.max(1, count);
   }, [questions]);
 
-  const [session, setSession] = useState<string>(() => {
-    if (sets && sets.length) return sets[0].filename;
-    return "0";
-  });
+  const [session, setSession] = useState<string>("0");
+
+  // When sets load, default to first set if available
+  useEffect(() => {
+    if (sets && sets.length && session === "0") {
+      setSession(sets[0].filename);
+    }
+  }, [sets]);
 
   const isLoading = loading || setsLoading;
 
