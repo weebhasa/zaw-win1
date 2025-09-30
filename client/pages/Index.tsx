@@ -79,14 +79,14 @@ export default function Index() {
                           );
                         } else {
                           out.push(
-                            <SelectLabel key={`label-${base}`}>{base}</SelectLabel>,
-                          );
-                          items.forEach((it) =>
-                            out.push(
-                              <SelectItem key={it.filename} value={it.filename}>
-                                {it.title}
-                              </SelectItem>,
-                            ),
+                            <SelectGroup key={`group-${base}`}>
+                              <SelectLabel>{base}</SelectLabel>
+                              {items.map((it) => (
+                                <SelectItem key={it.filename} value={it.filename}>
+                                  {it.title}
+                                </SelectItem>
+                              ))}
+                            </SelectGroup>,
                           );
                         }
                       }
