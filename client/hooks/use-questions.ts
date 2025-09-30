@@ -74,19 +74,52 @@ function normalizeData(data: any): Question[] {
 }
 
 async function safeFetchJson(url: string) {
-  const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`);
-  const text = await res.text();
-  const trimmed = text.trimStart();
-  if (trimmed.startsWith("<")) {
-    // Likely HTML (index.html) returned instead of JSON
-    throw new Error(`Non-JSON response from ${url}`);
-  }
+  const tried: string[] = [];
+
+  // Build candidate URL variants to handle encoding mismatches
+  const candidates = [url];
   try {
-    return JSON.parse(text);
-  } catch (e: any) {
-    throw new Error(`Invalid JSON from ${url}: ${e?.message ?? String(e)}`);
+    const decoded = decodeURIComponent(url);
+    if (decoded !== url) candidates.push(decoded);
+    const reencoded = encodeURI(decoded);
+    if (!candidates.includes(reencoded)) candidates.push(reencoded);
+  } catch (e) {
+    // ignore decode errors
   }
+
+  let lastError: Error | null = null;
+
+  for (const u of candidates) {
+    tried.push(u);
+    try {
+      const res = await fetch(u, { cache: "no-store" });
+      const text = await res.text();
+      const trimmed = text.trimStart();
+      if (!res.ok) {
+        lastError = new Error(`Failed to fetch ${u}: ${res.status}`);
+        continue;
+      }
+      if (trimmed.startsWith("<")) {
+        // Likely HTML (index.html) returned instead of JSON
+        lastError = new Error(`Non-JSON response from ${u}`);
+        continue;
+      }
+      try {
+        return JSON.parse(text);
+      } catch (e: any) {
+        lastError = new Error(`Invalid JSON from ${u}: ${e?.message ?? String(e)}`);
+        continue;
+      }
+    } catch (e: any) {
+      lastError = new Error(`Network error fetching ${u}: ${e?.message ?? String(e)}`);
+      continue;
+    }
+  }
+
+  const msg = lastError
+    ? `${lastError.message} (tried: ${tried.join(", ")})`
+    : `Failed to fetch JSON from ${url}`;
+  throw new Error(msg);
 }
 
 export function useQuestions(sourceUrl?: string) {
