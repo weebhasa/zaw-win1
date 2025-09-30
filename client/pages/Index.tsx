@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useQuestions } from "@/hooks/use-questions";
@@ -12,8 +13,6 @@ import {
   SelectValue,
   SelectLabel,
 } from "@/components/ui/select";
-
-import { useEffect, useMemo, useState } from "react";
 
 export default function Index() {
   const { questions, loading } = useQuestions();
