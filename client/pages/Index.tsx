@@ -57,17 +57,47 @@ export default function Index() {
                   <SelectValue placeholder="Select session" />
                 </SelectTrigger>
                 <SelectContent>
-                  {sets && sets.length > 0
-                    ? sets.map((s) => (
-                        <SelectItem key={s.filename} value={s.filename}>
-                          {s.title}
-                        </SelectItem>
-                      ))
-                    : Array.from({ length: totalSessions }).map((_, i) => (
-                        <SelectItem key={i} value={String(i)}>
-                          Session {i + 1}
-                        </SelectItem>
-                      ))}
+                  {sets && sets.length > 0 ? (
+                    (() => {
+                      // Group sets by base title (e.g., "Question for G+1 and G+4") when parts exist
+                      const map = new Map<string, typeof sets>();
+                      for (const s of sets) {
+                        const m = s.title.match(/^(.*)\bPart\b\s*\d+/i);
+                        const base = m ? m[1].trim() : s.title;
+                        if (!map.has(base)) map.set(base, [] as typeof sets);
+                        map.get(base)!.push(s);
+                      }
+
+                      const out: React.ReactNode[] = [];
+                      for (const [base, items] of map) {
+                        if (items.length === 1) {
+                          out.push(
+                            <SelectItem key={items[0].filename} value={items[0].filename}>
+                              {items[0].title}
+                            </SelectItem>,
+                          );
+                        } else {
+                          out.push(
+                            <SelectLabel key={`label-${base}`}>{base}</SelectLabel>,
+                          );
+                          items.forEach((it) =>
+                            out.push(
+                              <SelectItem key={it.filename} value={it.filename}>
+                                {it.title}
+                              </SelectItem>,
+                            ),
+                          );
+                        }
+                      }
+                      return out;
+                    })()
+                  ) : (
+                    Array.from({ length: totalSessions }).map((_, i) => (
+                      <SelectItem key={i} value={String(i)}>
+                        Session {i + 1}
+                      </SelectItem>
+                    ))
+                  )}
                 </SelectContent>
               </Select>
             </div>
