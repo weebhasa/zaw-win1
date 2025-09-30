@@ -28,7 +28,7 @@ function transformPaper(paper: any[]): Question[] {
   });
 }
 
-export function useQuestions() {
+export function useQuestions(sourceUrl?: string) {
   const [questions, setQuestions] = useState<Question[] | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -40,7 +40,8 @@ export function useQuestions() {
         setLoading(true);
         setError(null);
 
-        const res = await fetch("/questions.json", { cache: "no-store" });
+        const url = sourceUrl ? sourceUrl : "/questions.json";
+        const res = await fetch(url, { cache: "no-store" });
         if (!res.ok) {
           if (res.status === 404) {
             if (mounted) setQuestions([]);
@@ -68,7 +69,7 @@ export function useQuestions() {
     return () => {
       mounted = false;
     };
-  }, []);
+  }, [sourceUrl]);
 
   return { questions, loading, error };
 }
