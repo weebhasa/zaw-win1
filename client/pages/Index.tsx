@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useQuestions } from "@/hooks/use-questions";
+import { useQuestionSets } from "@/hooks/use-question-sets";
 import {
   Select,
   SelectContent,
@@ -12,11 +13,19 @@ import {
 
 export default function Index() {
   const { questions, loading } = useQuestions();
+  const { sets, loading: setsLoading } = useQuestionSets();
+
   const totalSessions = useMemo(() => {
     const count = questions ? Math.ceil(questions.length / 20) : 1;
     return Math.max(1, count);
   }, [questions]);
-  const [session, setSession] = useState<string>("0");
+
+  const [session, setSession] = useState<string>(() => {
+    if (sets && sets.length) return sets[0].filename;
+    return "0";
+  });
+
+  const isLoading = loading || setsLoading;
 
   return (
     <main className="relative">
@@ -35,25 +44,29 @@ export default function Index() {
               <label className="mb-1 block text-sm font-medium text-foreground">
                 Choose session
               </label>
-              <Select
-                value={session}
-                onValueChange={setSession}
-                disabled={loading}
-              >
+              <Select value={session} onValueChange={setSession} disabled={isLoading}>
                 <SelectTrigger>
                   <SelectValue placeholder="Select session" />
                 </SelectTrigger>
                 <SelectContent>
-                  {Array.from({ length: totalSessions }).map((_, i) => (
-                    <SelectItem key={i} value={String(i)}>
-                      Session {i + 1}
-                    </SelectItem>
-                  ))}
+                  {sets && sets.length > 0 ? (
+                    sets.map((s) => (
+                      <SelectItem key={s.filename} value={s.filename}>
+                        {s.title}
+                      </SelectItem>
+                    ))
+                  ) : (
+                    Array.from({ length: totalSessions }).map((_, i) => (
+                      <SelectItem key={i} value={String(i)}>
+                        Session {i + 1}
+                      </SelectItem>
+                    ))
+                  )}
                 </SelectContent>
               </Select>
             </div>
             <Button asChild size="lg" className="w-full sm:w-64">
-              <Link to={`/test?session=${session}`}>Start Test</Link>
+              <Link to={`/test?session=${encodeURIComponent(session)}`}>Start Test</Link>
             </Button>
           </div>
         </div>
