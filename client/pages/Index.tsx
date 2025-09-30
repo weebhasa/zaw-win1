@@ -66,69 +66,66 @@ export default function Index() {
             short answer questions. Your progress is tracked as you go, and
             detailed results are shown at the end.
           </p>
-          <div className="mt-8 flex flex-col gap-3">
-            <div className="w-full sm:w-64">
-              <label className="mb-1 block text-sm font-medium text-foreground">
-                Choose session
-              </label>
-              <Select
-                value={session}
-                onValueChange={setSession}
-                disabled={isLoading}
-              >
-                <SelectTrigger>
-                  <SelectValue placeholder="Select session" />
-                </SelectTrigger>
-                <SelectContent>
-                  {sets && sets.length > 0 ? (
-                    (() => {
-                      // Group sets by base title (e.g., "Question for G+1 and G+4") when parts exist
-                      const map = new Map<string, typeof sets>();
-                      for (const s of sets) {
-                        const m = s.title.match(/^(.*)\bPart\b\s*\d+/i);
-                        const base = m ? m[1].trim() : s.title;
-                        if (!map.has(base)) map.set(base, [] as typeof sets);
-                        map.get(base)!.push(s);
-                      }
-
-                      const out: React.ReactNode[] = [];
-                      for (const [base, items] of map) {
-                        if (items.length === 1) {
-                          out.push(
-                            <SelectItem key={items[0].filename} value={items[0].filename}>
-                              {items[0].title}
-                            </SelectItem>,
-                          );
-                        } else {
-                          out.push(
-                            <SelectGroup key={`group-${base}`}>
-                              <SelectLabel>{base}</SelectLabel>
-                              {items.map((it) => (
-                                <SelectItem key={it.filename} value={it.filename}>
-                                  {it.title}
-                                </SelectItem>
-                              ))}
-                            </SelectGroup>,
-                          );
-                        }
-                      }
-                      return out;
-                    })()
-                  ) : (
-                    Array.from({ length: totalSessions }).map((_, i) => (
-                      <SelectItem key={i} value={String(i)}>
-                        Session {i + 1}
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-end">
+            <div className="flex gap-3 w-full sm:w-auto">
+              <div className="w-full sm:w-64">
+                <label className="mb-1 block text-sm font-medium text-foreground">
+                  Choose session
+                </label>
+                <Select
+                  value={selectedBase}
+                  onValueChange={(v) => {
+                    setSelectedBase(v);
+                    const g = groups.find((gg) => gg.base === v);
+                    if (g && g.items && g.items.length) setSelectedPart(g.items[0].filename);
+                  }}
+                  disabled={isLoading}
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder="Select session" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {groups.map((g) => (
+                      <SelectItem key={g.base} value={g.base}>
+                        {g.base}
                       </SelectItem>
-                    ))
-                  )}
-                </SelectContent>
-              </Select>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+
+              {currentGroup && currentGroup.items.length > 1 && (
+                <div className="w-full sm:w-64">
+                  <label className="mb-1 block text-sm font-medium text-foreground">
+                    Part
+                  </label>
+                  <Select
+                    value={selectedPart}
+                    onValueChange={(v) => setSelectedPart(v)}
+                    disabled={isLoading}
+                  >
+                    <SelectTrigger>
+                      <SelectValue placeholder="Choose part" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {currentGroup.items.map((it) => (
+                        <SelectItem key={it.filename} value={it.filename}>
+                          {it.title}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+              )}
             </div>
-            <Button asChild size="lg" className="w-full sm:w-64">
-              <Link to={`/test?session=${encodeURIComponent(session)}`}>
-                Start Test
-              </Link>
-            </Button>
+
+            <div className="w-full sm:w-auto">
+              <Button asChild size="lg" className="w-full sm:w-48">
+                <Link to={`/test?session=${encodeURIComponent(startSessionFilename)}`}>
+                  Start Test
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
