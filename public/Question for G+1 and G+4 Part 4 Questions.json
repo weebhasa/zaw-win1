@@ -1,0 +1,185 @@
+{
+  "title": "Question for G+1 and G+4 - Part 4",
+  "questions": [
+    {
+      "id": 91,
+      "question": "In Cantilever beam the tension side is the",
+      "options": { "A": "Bottom", "B": "Mid", "C": "Face", "D": "Top" },
+      "answer": "A"
+    },
+    {
+      "id": 92,
+      "question": "Which test is used to determine the bearing capacity of piles?",
+      "options": { "A": "Dynamic formula", "B": "Static formula", "C": "Pile load test", "D": "All" },
+      "answer": "D"
+    },
+    {
+      "id": 93,
+      "question": "For plastering the exposed blocks wall, the mortar should be of ratio",
+      "options": { "A": "1:2", "B": "1:3", "C": "1:5", "D": "1:4" },
+      "answer": "B"
+    },
+    {
+      "id": 94,
+      "question": "The doors used in residential buildings should be fire rated up to",
+      "options": { "A": "MI30", "B": "MI100", "C": "MI120", "D": "MI60" },
+      "answer": "A"
+    },
+    {
+      "id": 95,
+      "question": "The finished surface of flat roof should have a slope of for effective drainage",
+      "options": { "A": "1 in 5", "B": "1 in 30", "C": "1 in 10", "D": "1 in 20" },
+      "answer": "D"
+    },
+    {
+      "id": 96,
+      "question": "For stairs the sum of tread and rise must lie between mm",
+      "options": { "A": "300-350", "B": "300-500", "C": "600-650", "D": "400-450" },
+      "answer": "B"
+    },
+    {
+      "id": 97,
+      "question": "The horizontal member for supporting common rafter in sloping roof is",
+      "options": { "A": "Cleat", "B": "Batten", "C": "Strut", "D": "Purlin" },
+      "answer": "D"
+    },
+    {
+      "id": 98,
+      "question": "The bearing capacity of water logged soil can be improved by",
+      "options": { "A": "Compacting the soil", "B": "Depth increase", "C": "Grouting", "D": "Draining the soil" },
+      "answer": "D"
+    },
+    {
+      "id": 99,
+      "question": "The compaction of concrete is necessary to",
+      "options": { "A": "Avoid honeycomb", "B": "Remove air", "C": "Remove water", "D": "Both A and B" },
+      "answer": "D"
+    },
+    {
+      "id": 100,
+      "question": "Bulk density of aggregate depends upon",
+      "options": { "A": "Shape", "B": "Grading", "C": "Compaction", "D": "All of above" },
+      "answer": "D"
+    },
+    {
+      "id": 101,
+      "question": "Slump test of concrete is measure of its",
+      "options": { "A": "Compressive strength", "B": "Tensile strength", "C": "Impact value", "D": "Consistency" },
+      "answer": "D"
+    },
+    {
+      "id": 102,
+      "question": "Water to cement ratio is of water to that of cement",
+      "options": { "A": "Volume", "B": "Weight", "C": "Strength", "D": "None" },
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "question": "Concrete beam sides shuttering are removed minimum after",
+      "options": { "A": "2 days", "B": "3 days", "C": "7 days", "D": "1 day" },
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "question": "Durability of concrete means that concrete",
+      "options": { "A": "Has more strength", "B": "Has high creep value", "C": "Get stronger with time", "D": "Is less brittle" },
+      "answer": "A"
+    },
+    {
+      "id": 105,
+      "question": "The bulk density of aggregate is generally expressed as",
+      "options": { "A": "Tons/m3", "B": "Kg/m3", "C": "kg/litr", "D": "g/cm3" },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "Allowable shear strength of concrete depends upon",
+      "options": { "A": "Tensile strength", "B": "Compressive strength", "C": "Shear strength", "D": "None" },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "Depth of slab depend upon",
+      "options": { "A": "Deflection", "B": "Modulus of elasticity", "C": "Modification factor", "D": "None" },
+      "answer": "A"
+    },
+    {
+      "id": 108,
+      "question": "Workability of concrete depends upon",
+      "options": { "A": "Water content", "B": "Gradation and admixtures", "C": "Aggregate shape and size", "D": "All of above" },
+      "answer": "D"
+    },
+    {
+      "id": 109,
+      "question": "High temperature the strength of concrete",
+      "options": { "A": "Increase", "B": "No effect", "C": "Decrease", "D": "None" },
+      "answer": "C"
+    },
+    {
+      "id": 110,
+      "question": "Which of the following is not the characteristic of hard concrete",
+      "options": { "A": "Brittle", "B": "Strong in compression", "C": "Weak in tension", "D": "Soft" },
+      "answer": "D"
+    },
+    {
+      "id": 111,
+      "question": "Fly ash, a by-product of coal fired electric generating plants, is used to partially replace OPC by",
+      "options": { "A": "30% by mass", "B": "50% by mass", "C": "10% by mass", "D": "60% by mass" },
+      "answer": "A"
+    },
+    {
+      "id": 112,
+      "question": "The minimum thickness of slab should be",
+      "options": { "A": "200mm", "B": "250mm", "C": "125mm", "D": "100mm" },
+      "answer": "C"
+    },
+    {
+      "id": 113,
+      "question": "The ratio of larger span to shorter span for the one way slab is",
+      "options": { "A": "Less than 2", "B": "2", "C": "3", "D": "Greater than 2" },
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "Open stirrups are provided principally to resist forces in concrete beams",
+      "options": { "A": "Flexure", "B": "Bending", "C": "Shear", "D": "Punching" },
+      "answer": "C"
+    },
+    {
+      "id": 115,
+      "question": "U-shaped stirrups are placed in the side of beams in which shear cracks would occur",
+      "options": { "A": "Compression", "B": "Both", "C": "Tension", "D": "None" },
+      "answer": "C"
+    },
+    {
+      "id": 116,
+      "question": "The density of wood is kg/m3",
+      "options": { "A": "7800", "B": "2500", "C": "700", "D": "1500" },
+      "answer": "D"
+    },
+    {
+      "id": 117,
+      "question": "Workability of concrete can be checked by",
+      "options": { "A": "By pouring in cone and measure the flow", "B": "Fill moulds", "C": "Hammer", "D": "None" },
+      "answer": "A"
+    },
+    {
+      "id": 118,
+      "question": "To resist the sides earth soil fall, type of wall used is",
+      "options": { "A": "Bearing wall", "B": "Shear wall", "C": "Block wall", "D": "Retaining wall" },
+      "answer": "D"
+    },
+    {
+      "id": 119,
+      "question": "The members which support covering material of a sloping roof are",
+      "options": { "A": "Purlins", "B": "Battens", "C": "Struts", "D": "Rafters" },
+      "answer": "D"
+    },
+    {
+      "id": 120,
+      "question": "A wooden block hinged on post outside a door is known as",
+      "options": { "A": "Stop", "B": "Horn", "C": "Cleat", "D": "None" },
+      "answer": "B"
+    }
+  ]
+}

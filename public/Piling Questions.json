@@ -1,0 +1,102 @@
+{
+  "title": "Piling Questions for G+1 and G+4",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The percentage of piles should be tested by static load method as per DM",
+      "options": { "A": "5%", "B": "15%", "C": "4%", "D": "1%" },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "The percentage of piles should be tested by dynamic test",
+      "options": { "A": "15%", "B": "10%", "C": "20%", "D": "5%" },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "The percentage of piles should be tested by integrity test",
+      "options": { "A": "15%", "B": "20%", "C": "50%", "D": "100%" },
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "question": "Type of piles used in case of high water table",
+      "options": { "A": "Secant Piles", "B": "Franki Piles", "C": "Raymond Piles", "D": "Mac Arthur Piles" },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "Concrete clear cover for piles used",
+      "options": { 
+        "A": "50 to 75mm. minimum is 50mm.", 
+        "B": "75 to 100mm. minimum is 75mm.", 
+        "C": "100 to 125mm. minimum is 100mm.", 
+        "D": "125 to 150mm. minimum is 125mm." 
+      },
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "question": "The minimum spacing between piles",
+      "options": { 
+        "A": "2.0D where D is diameter of pile maximum spacing is 2.5D", 
+        "B": "2.5D where D is diameter of pile maximum spacing is 3.5D", 
+        "C": "3.0D where D is diameter of pile maximum spacing is 4.0D", 
+        "D": "3.5D where D is diameter of pile maximum spacing is 4.5D" 
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "The lapping length used for piles",
+      "options": { 
+        "A": "40d where d is diameter of steel bars", 
+        "B": "45d where d is diameter of steel bars", 
+        "C": "50d where d is diameter of steel bars", 
+        "D": "55d where d is diameter of steel bars" 
+      },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "Pile foundation are suitable for",
+      "options": { "A": "Soft rocks", "B": "Compact soils", "C": "Multi-storey buildings", "D": "Water logged soil" },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "Engineering formula for obtaining safe bearing capacity of the pile for drop hammer",
+      "options": { 
+        "A": "Q= Wh/6(S+2.5)", 
+        "B": "Q= Wh/5(S+2.5)", 
+        "C": "Q= Wh/4(S+2.5)", 
+        "D": "Q= Wh/7(S+2.5)" 
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "The pile which is provided with a bulb filled with concrete at its lower end is known as",
+      "options": { "A": "Simplex pile", "B": "Franki pile", "C": "Raymond pile", "D": "Mac Arthur pile" },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "The bearing capacity of piles is determined by",
+      "options": { "A": "Dynamic formula", "B": "Static formula", "C": "Pile load test", "D": "All" },
+      "answer": "D"
+    },
+    {
+      "id": 12,
+      "question": "The additional piles which are driven to increase the capacity of supporting loads on vertical piles are known as",
+      "options": { 
+        "A": "Raking Piles", 
+        "B": "Battered Piles", 
+        "C": "Tie Piles", 
+        "D": "Load Bearing Piles" 
+      },
+      "answer": "A"
+    }
+  ]
+}

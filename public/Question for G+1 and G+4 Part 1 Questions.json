@@ -1,0 +1,185 @@
+{
+  "title": "Question for G+1 and G+4 - Part 1",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The shutters and bottom support of non-cantilever slab is removed within minimum of days",
+      "options": { "A": "7 days", "B": "14 days", "C": "28 days", "D": "21 days" },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "Shotcrete is used in",
+      "options": { "A": "Repairing surfaces", "B": "Dam surfaces", "C": "Curved surfaces", "D": "All of above" },
+      "answer": "D"
+    },
+    {
+      "id": 3,
+      "question": "The shutters and bottom support of non-cantilever beam can be removed within minimum of",
+      "options": { "A": "7 days", "B": "14 days", "C": "28 days", "D": "21 days" },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "Bitumen is used in construction to provide",
+      "options": { "A": "Protective Surface", "B": "Shining surface", "C": "Decorative surface", "D": "All of above" },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "First test on concrete is done after days",
+      "options": { "A": "7 days", "B": "14 days", "C": "28 days", "D": "3 days" },
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "question": "Core samples are taken for finding",
+      "options": { "A": "Tensile strength", "B": "Compressive strength", "C": "Water absorption", "D": "Surface hardness" },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "Rebound smidth hammer test is",
+      "options": { "A": "Destructive test", "B": "Non-destructive", "C": "Cohesion test", "D": "All of above" },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Core samples are taken after days",
+      "options": { "A": "7 days", "B": "14 days", "C": "28 days", "D": "10 days" },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "Density of Aluminium is Kg/m3 in normal temperature",
+      "options": { "A": "3500", "B": "2700", "C": "2500", "D": "3000" },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "Which type of cement is used in normal slabs",
+      "options": { "A": "SRC", "B": "OPC", "C": "Non-shrinkage", "D": "Rapid hardening" },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "Density of Steel is Kg/m3",
+      "options": { "A": "7000", "B": "8000", "C": "6500", "D": "7800" },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Contractors use blankets over fresh concrete to",
+      "options": { "A": "Increase evaporation", "B": "Reduce evaporation", "C": "Be rapid harden", "D": "Avoid sulphate attack" },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "The density of light weight concrete is Kg/m3",
+      "options": { "A": "1000", "B": "2000", "C": "300", "D": "1300" },
+      "answer": "D"
+    },
+    {
+      "id": 14,
+      "question": "How many cubes samples required for 110cum concrete on single day?",
+      "options": { "A": "18", "B": "12", "C": "9", "D": "6" },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "Adding more water to concrete mix, its workability",
+      "options": { "A": "Decrease", "B": "Remain same", "C": "Increase", "D": "No effect" },
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "question": "Density of ACC block is Kg/m3",
+      "options": { "A": "500", "B": "550", "C": "700", "D": "600" },
+      "answer": "D"
+    },
+    {
+      "id": 17,
+      "question": "Compaction of concrete is done to",
+      "options": { "A": "Increase strength", "B": "Increase durability", "C": "Remove air", "D": "All are required" },
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "question": "Proper curing of concrete should be continued for days",
+      "options": { "A": "7", "B": "14", "C": "10", "D": "28 days" },
+      "answer": "D"
+    },
+    {
+      "id": 19,
+      "question": "The average strength of cubes at the end of 28 days should be",
+      "options": { "A": "Greater than fc’ by 15%", "B": "Greater than or equal to fc’", "C": "Equal to or less than fc’ by 15%", "D": "Greater than fc’ by 1.15 times" },
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "Compaction of concrete is done to",
+      "options": { "A": "Increase strength", "B": "Increase durability", "C": "Remove air", "D": "All of above" },
+      "answer": "D"
+    },
+    {
+      "id": 21,
+      "question": "When casting, if the temperature of concrete mix is above 32C0, how should you bring the temperature of the mix down to 32 or less?",
+      "options": { "A": "Adding water", "B": "Adding fly ash", "C": "Adding silica", "D": "Adding ice" },
+      "answer": "D"
+    },
+    {
+      "id": 22,
+      "question": "Structural element that holds the earth retaining wall is",
+      "options": { "A": "Stem", "B": "Shear key", "C": "Foundation (toe & heel)", "D": "Toe" },
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "Minimum amount of steel required in normal column is",
+      "options": { "A": "2%", "B": "3%", "C": "4%", "D": "1%" },
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "question": "Amount of steel in flat slab is Kg/m3",
+      "options": { "A": "80-100", "B": "200", "C": "120", "D": "160-185" },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "What is the effect of corrosion in reinforcement on RCC element",
+      "options": { "A": "Damage of concrete element", "B": "Cracking of the element", "C": "Deflection become more than normal", "D": "All of above are correct" },
+      "answer": "D"
+    },
+    {
+      "id": 26,
+      "question": "Concrete is",
+      "options": { "A": "Weak in compression and strong in tension", "B": "Strong in compression and strong in tension", "C": "Strong in compression but weak in tension", "D": "Enough strong in tensile strength for normal loads" },
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "question": "The correct lapping location in beam is",
+      "options": { "A": "Middle in top and middle in bottom bars", "B": "Extreme middle third in top and at support in bottom layers", "C": "Middle in bottom and at support at top", "D": "Anywhere is correct" },
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "question": "What is the thickness to which the soil is back filled in layers and compacted?",
+      "options": { "A": "600mm", "B": "400-500mm", "C": "150-200mm", "D": "250-300mm" },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "Density of water is Kg/m3",
+      "options": { "A": "800", "B": "900", "C": "1200", "D": "1000" },
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "question": "Concrete beam is reinforced to increase",
+      "options": { "A": "Strength", "B": "Compression", "C": "Serviceability", "D": "Tension" },
+      "answer": "D"
+    }
+  ]
+}

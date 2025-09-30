@@ -1,0 +1,185 @@
+{
+  "title": "Question for G+1 and G+4 - Part 2",
+  "questions": [
+    {
+      "id": 31,
+      "question": "The clear cover given to footing is",
+      "options": { "A": "40mm", "B": "50mm", "C": "100mm", "D": "75mm" },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Which part of a building transfer the load to the soil below the foundation?",
+      "options": { "A": "Column", "B": "Plinth", "C": "Super structure", "D": "Foundation" },
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "question": "When moderate sulfate resistance is desired for concrete element then cement ASTM C150",
+      "options": { "A": "Type I", "B": "Type III", "C": "Type IV", "D": "Type II" },
+      "answer": "D"
+    },
+    {
+      "id": 34,
+      "question": "Honey comb in concrete is caused by",
+      "options": { "A": "No vibration", "B": "Less workability", "C": "Spacing less than 25mm", "D": "All" },
+      "answer": "D"
+    },
+    {
+      "id": 35,
+      "question": "The modulus of elasticity of concrete is N/mm2",
+      "options": { "A": "(57000)fc’0.5", "B": "29000000", "C": "210000", "D": "4700fc’0.5" },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "The Poisson ratio of structural steel is",
+      "options": { "A": "0.2", "B": "0.5", "C": "0.4", "D": "0.3" },
+      "answer": "D"
+    },
+    {
+      "id": 37,
+      "question": "Which type of cement is used for foundation concrete?",
+      "options": { "A": "OPC", "B": "Rapid hardening", "C": "Self compacting", "D": "SRC" },
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "question": "Adding more water to concrete mix then its strength",
+      "options": { "A": "Increase", "B": "Constant", "C": "No relation", "D": "Decrease" },
+      "answer": "D"
+    },
+    {
+      "id": 39,
+      "question": "Maximum allowable settlement of raft foundation is mm",
+      "options": { "A": "40", "B": "75", "C": "60", "D": "50" },
+      "answer": "D"
+    },
+    {
+      "id": 40,
+      "question": "In concentric footing the column is at the",
+      "options": { "A": "Corner", "B": "Edge", "C": "Diagonal", "D": "Center" },
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "question": "Maximum allowable deflection for isolated footing is",
+      "options": { "A": "50mm", "B": "40mm", "C": "30mm", "D": "25mm" },
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "question": "Density of RCC is Kg/m3",
+      "options": { "A": "2000", "B": "2300", "C": "2400", "D": "2500" },
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "question": "The most common type of footing used in building is",
+      "options": { "A": "Combine", "B": "Strap", "C": "Raft", "D": "Isolated footing" },
+      "answer": "D"
+    },
+    {
+      "id": 44,
+      "question": "In continuous slab the maximum bending moment will be at",
+      "options": { "A": "Mid of slab", "B": "Middle third", "C": "L/2 from beam", "D": "Near column or beam" },
+      "answer": "D"
+    },
+    {
+      "id": 45,
+      "question": "The clear cover provided to beam is",
+      "options": { "A": "20mm", "B": "45mm", "C": "50mm", "D": "25mm" },
+      "answer": "C"
+    },
+    {
+      "id": 46,
+      "question": "The thickness of external fence wall plaster should be",
+      "options": { "A": "10mm", "B": "12mm", "C": "15mm", "D": "20mm" },
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "question": "The gate level of the villa should be above from the road level by",
+      "options": { "A": "10cm", "B": "15cm", "C": "20cm", "D": "30cm" },
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "question": "The correct definition of durability of concrete is",
+      "options": { "A": "The capability of concrete to resist weathering action", "B": "Ability to resist against chemical attack and abrasion", "C": "Ability to bear heavy load", "D": "Both A and B" },
+      "answer": "D"
+    },
+    {
+      "id": 49,
+      "question": "The 6 concrete cubes are casted and are tested after",
+      "options": { "A": "3 days", "B": "7 days", "C": "28 days", "D": "7 and 28 days" },
+      "answer": "D"
+    },
+    {
+      "id": 50,
+      "question": "When water content in concrete increases then strength",
+      "options": { "A": "Increase", "B": "No change", "C": "No relation", "D": "Decrease" },
+      "answer": "D"
+    },
+    {
+      "id": 51,
+      "question": "Which section of column is best for construction purpose to bear crushing",
+      "options": { "A": "Rectangular", "B": "Square", "C": "Triangular", "D": "Circular" },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "The durability of concrete can be improved most by adding",
+      "options": { "A": "Fly ash", "B": "Silica fume", "C": "GGBS", "D": "Both Fly ash and slag" },
+      "answer": "D"
+    },
+    {
+      "id": 53,
+      "question": "The bending moment diagram for a simply supported beam carrying uniformly distributed load of w per unit length will be",
+      "options": { "A": "A horizontal line", "B": "Vertical line", "C": "Inclined line", "D": "Parabolic curve" },
+      "answer": "D"
+    },
+    {
+      "id": 54,
+      "question": "When shear force at a point is zero, then the bending moment is at that point",
+      "options": { "A": "Zero", "B": "Minimum", "C": "Infinity", "D": "Maximum" },
+      "answer": "D"
+    },
+    {
+      "id": 55,
+      "question": "The point of contra flexure is a point where",
+      "options": { "A": "Shear force changes sign", "B": "Bending moment changes sign", "C": "Shear force is maximum", "D": "Bending moment is maximum" },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "In a simply supported beam carrying uniformly distributed load w per unit length, the point of contra flexure",
+      "options": { "A": "Lies in the center of beam", "B": "Lies at the end of beam", "C": "Depend on L of beam", "D": "Does not exist" },
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "question": "For normal size of blocks 200x200x400, the number of blocks required for 3mx5m wall is",
+      "options": { "A": "140", "B": "187", "C": "165", "D": "150" },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "For external fence wall the type of block used is",
+      "options": { "A": "Solid blocks", "B": "Thermal", "C": "ACC thermo", "D": "Hollow blocks" },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "For external villa walls which type of blocks are usually used?",
+      "options": { "A": "Hollow blocks", "B": "Solid blocks", "C": "Semisolid", "D": "Thermal blocks" },
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "question": "For unsupported block masonry exceeding m2 you should provide dummy columns",
+      "options": { "A": "10", "B": "20", "C": "25", "D": "14" },
+      "answer": "B"
+    }
+  ]
+}

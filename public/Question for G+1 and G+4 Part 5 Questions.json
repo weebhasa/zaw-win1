@@ -1,0 +1,227 @@
+{
+  "title": "Question for G+1 and G+4 - Part 5",
+  "questions": [
+    {
+      "id": 121,
+      "question": "The window which is provided in flat roof of a room is known as",
+      "options": { "A": "Dormer window", "B": "Louvered", "C": "Sky window", "D": "Lantern" },
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "question": "Weep holes are provided in retaining and breast walls to",
+      "options": { "A": "Drain off the water from the filling", "B": "Prevent cracking", "C": "Reduce pressure", "D": "Ventilate soil" },
+      "answer": "A"
+    },
+    {
+      "id": 123,
+      "question": "Pitched and sloping roofs are suitable for",
+      "options": { "A": "Coastal regions", "B": "Plain regions", "C": "Covering large areas", "D": "All" },
+      "answer": "D"
+    },
+    {
+      "id": 124,
+      "question": "The maximum number of steps in a flight should generally be restricted to",
+      "options": { "A": "10", "B": "15", "C": "No limit", "D": "12" },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "A pre-stressed concrete pile is",
+      "options": { "A": "Easy to handle", "B": "Lighter in weight", "C": "Durable", "D": "All of above" },
+      "answer": "D"
+    },
+    {
+      "id": 126,
+      "question": "The depth of an arch is the distance between",
+      "options": { "A": "Intrados and extrados", "B": "Springing and crown", "C": "Keystone and impost", "D": "None" },
+      "answer": "A"
+    },
+    {
+      "id": 127,
+      "question": "Depth of lean concrete bed placed at the bottom of wall footing is kept",
+      "options": { "A": "10cm", "B": "15cm", "C": "Equal to its projection beyond wall base", "D": "None" },
+      "answer": "A"
+    },
+    {
+      "id": 128,
+      "question": "For effective drainage, the finished surface of flat roof should have a minimum slope of",
+      "options": { "A": "1 to 50", "B": "1 to 10", "C": "1 to 5", "D": "1 to 20" },
+      "answer": "D"
+    },
+    {
+      "id": 129,
+      "question": "For plastering the exposed brick walls, the cement sand mortar should be",
+      "options": { "A": "1:2", "B": "1:3", "C": "1:6", "D": "1:4" },
+      "answer": "B"
+    },
+    {
+      "id": 130,
+      "question": "The Auger boring method is not suitable for",
+      "options": { "A": "Very hard soil", "B": "Cemented soil", "C": "Very soft soil", "D": "All" },
+      "answer": "D"
+    },
+    {
+      "id": 131,
+      "question": "The ceiling height of a building is",
+      "options": { "A": "Between ceiling and floor level", "B": "From floor to roof", "C": "From plinth to roof", "D": "From foundation to roof" },
+      "answer": "A"
+    },
+    {
+      "id": 132,
+      "question": "To ensure that supporting area of an offset footing of a boundary wall is fully compressive, the Centre of gravity of load must act",
+      "options": { "A": "Within the middle third of the base", "B": "At the edge", "C": "At the corner", "D": "Anywhere on base" },
+      "answer": "A"
+    },
+    {
+      "id": 133,
+      "question": "The vertical faces of a door opening which support frame of the door are",
+      "options": { "A": "Posts", "B": "Styles", "C": "Reveals", "D": "Jambs" },
+      "answer": "D"
+    },
+    {
+      "id": 134,
+      "question": "In corridor floors outward slope is",
+      "options": { "A": "1 in 40", "B": "1 in 50", "C": "1 in 70", "D": "1 in 60" },
+      "answer": "B"
+    },
+    {
+      "id": 135,
+      "question": "The entrained concrete is used in lining walls and roofs for making",
+      "options": { "A": "Heat insulation", "B": "Sound insulation", "C": "Both", "D": "None" },
+      "answer": "C"
+    },
+    {
+      "id": 136,
+      "question": "The member which is placed horizontally to support common rafter of sloping roof is",
+      "options": { "A": "Cleat", "B": "Batten", "C": "Strut", "D": "Purlins" },
+      "answer": "D"
+    },
+    {
+      "id": 137,
+      "question": "Safe bearing capacity of black cotton soil varies from",
+      "options": { "A": "5 to 7.5 T/m2", "B": "2 to 4 T/m2", "C": "3 to 6 T/m2", "D": "7 to 10 T/m2" },
+      "answer": "A"
+    },
+    {
+      "id": 138,
+      "question": "The type of footing which is used to transmit heavy loads through steel column is",
+      "options": { "A": "Raft foundation", "B": "Well foundation", "C": "Isolated", "D": "Grillage foundation" },
+      "answer": "D"
+    },
+    {
+      "id": 139,
+      "question": "The raft slab is projected beyond the outer walls of the structure by",
+      "options": { "A": "30 to 45cm", "B": "20 to 25cm", "C": "40 to 60cm", "D": "50 to 70cm" },
+      "answer": "A"
+    },
+    {
+      "id": 140,
+      "question": "The projections of head or sill of a door or window frame are",
+      "options": { "A": "Transoms", "B": "Stops", "C": "Chocks", "D": "Horns" },
+      "answer": "D"
+    },
+    {
+      "id": 141,
+      "question": "You are asked to design and supervise a truss for a factory to have spans 6-9m. The type of truss you will use is",
+      "options": { "A": "King post truss", "B": "Queen post truss", "C": "Pratt truss", "D": "Howe truss" },
+      "answer": "A"
+    },
+    {
+      "id": 142,
+      "question": "The line of intersection of two surfaces of a sloping roof forming an internal angle less than 180° is known as",
+      "options": { "A": "Ridge", "B": "Hip", "C": "Rafter", "D": "Valley" },
+      "answer": "D"
+    },
+    {
+      "id": 143,
+      "question": "The vertical sides of a door and window openings provided in a wall are known as",
+      "options": { "A": "Verticals", "B": "Reveals", "C": "Lintel", "D": "Jambs" },
+      "answer": "D"
+    },
+    {
+      "id": 144,
+      "question": "In soil of low bearing capacity, the type of foundation generally provided is",
+      "options": { "A": "Column footing", "B": "Grillage footing", "C": "Raft footing", "D": "All" },
+      "answer": "C"
+    },
+    {
+      "id": 145,
+      "question": "The concrete slump recommended for beams and slab is",
+      "options": { "A": "30 to 125mm", "B": "50 to 150mm", "C": "20 to 100mm", "D": "40 to 130mm" },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "If depth of excavation is 20m, number of single stage well points to be installed at various levels",
+      "options": { "A": "2", "B": "4", "C": "5", "D": "3" },
+      "answer": "D"
+    },
+    {
+      "id": 147,
+      "question": "Shear reinforcement or stirrups in beams are provided to resist",
+      "options": { "A": "Horizontal shear", "B": "Vertical shear", "C": "Diagonal compression", "D": "Diagonal tension" },
+      "answer": "D"
+    },
+    {
+      "id": 148,
+      "question": "If the shear stress in a RCC beam is",
+      "options": { "A": "Equal or less than 5kg/cm2 no shear steel is provided", "B": "Greater than 4 kg/cm2 but less than 20 kg/cm2 shear steel is provided", "C": "Greater than 20 kg/cm2, the size of the section is changed", "D": "All of above" },
+      "answer": "D"
+    },
+    {
+      "id": 149,
+      "question": "Distribution of shear intensity over a rectangular section of a beam follows",
+      "options": { "A": "A parabolic curve", "B": "A straight line", "C": "A sinusoidal curve", "D": "A triangular curve" },
+      "answer": "A"
+    },
+    {
+      "id": 150,
+      "question": "In pre-stressed member it is advisable to use",
+      "options": { "A": "High strength concrete and high tensile steel bars", "B": "Normal concrete and steel", "C": "Low strength concrete and steel", "D": "Lightweight concrete" },
+      "answer": "A"
+    },
+    {
+      "id": 151,
+      "question": "In simply supported slab, alternate bars are curtailed at",
+      "options": { "A": "1/7th of the Span", "B": "1/5th of the Span", "C": "1/6th of the Span", "D": "1/8th of the Span" },
+      "answer": "A"
+    },
+    {
+      "id": 152,
+      "question": "Density of wood is kg/m3",
+      "options": { "A": "1500 kg/m3", "B": "1200 kg/m3", "C": "1000 kg/m3", "D": "1800 kg/m3" },
+      "answer": "A"
+    },
+    {
+      "id": 153,
+      "question": "A cantilever beam subjected to point load at free end then the slope at fixed end is",
+      "options": { "A": "Zero at fixed end. Deflection is Pl3/3EI", "B": "Maximum at fixed end", "C": "Zero at free end", "D": "Maximum at free end" },
+      "answer": "A"
+    },
+    {
+      "id": 154,
+      "question": "In cantilever beam the deflection occurs only at",
+      "options": { "A": "Free end", "B": "Fixed end", "C": "Midspan", "D": "Both ends" },
+      "answer": "A"
+    },
+    {
+      "id": 155,
+      "question": "The specific gravity of mercury is",
+      "options": { "A": "13.6", "B": "14.5", "C": "12.8", "D": "15" },
+      "answer": "A"
+    },
+    {
+      "id": 156,
+      "question": "The bottom or lowermost horizontal part of a window frame is known as",
+      "options": { "A": "Sills", "B": "Lintel", "C": "Transoms", "D": "Reveals" },
+      "answer": "A"
+    },
+    {
+      "id": 157,
+      "question": "A construction joint is provided where",
+      "options": { "A": "Bending moment is less and shear force is small", "B": "Bending moment is maximum", "C": "Shear force is maximum", "D": "Anywhere" },
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "title": "Question for G+1 and G+4 - Part 3",
+  "questions": [
+    {
+      "id": 61,
+      "question": "The strength of solid blocks should be N/mm2 for walls",
+      "options": { "A": "5", "B": "2", "C": "20", "D": "12.5" },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "The Sulfate content SO3 should not exceed in fine aggregate used for construction",
+      "options": { "A": "1%", "B": "0.6%", "C": "0.8%", "D": "0.4%" },
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "question": "As per DM requirements, the yield strength of deformed bars should be N/mm2",
+      "options": { "A": "260", "B": "370", "C": "514", "D": "460" },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "As per DM rules the lap length usually used is for reinforcement",
+      "options": { "A": "40d", "B": "60d", "C": "30d", "D": "50d" },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "As per DM rule for beams depth more shrinkage bars should be used on each face of beam",
+      "options": { "A": "600mm", "B": "800mm", "C": "760mm", "D": "700mm" },
+      "answer": "D"
+    },
+    {
+      "id": 66,
+      "question": "The clear cover for strap beam is",
+      "options": { "A": "50mm", "B": "75mm", "C": "20mm", "D": "30mm" },
+      "answer": "A"
+    },
+    {
+      "id": 67,
+      "question": "The purpose of integrity test on piles in deep foundation is",
+      "options": { "A": "To find necking", "B": "To find bulging", "C": "To find cracks", "D": "All" },
+      "answer": "D"
+    },
+    {
+      "id": 68,
+      "question": "Integrity test on RCC piles is done after no sooner than days after casting",
+      "options": { "A": "3", "B": "5", "C": "10", "D": "7" },
+      "answer": "D"
+    },
+    {
+      "id": 69,
+      "question": "The minimum percentage of steel in beam as per BS standards is",
+      "options": { "A": "1%", "B": "2%", "C": "0.5%", "D": "0.8%" },
+      "answer": "C"
+    },
+    {
+      "id": 70,
+      "question": "For water used in construction, the pH value is not than 6",
+      "options": { "A": "More", "B": "Equal", "C": "Less", "D": "Related" },
+      "answer": "C"
+    },
+    {
+      "id": 71,
+      "question": "In bottom layer of Raft foundation the overlap is provided",
+      "options": { "A": "Near the column", "B": "Near the beam", "C": "Away from column", "D": "Anywhere" },
+      "answer": "A"
+    },
+    {
+      "id": 72,
+      "question": "Smidth hammer is a non-destructive test for",
+      "options": { "A": "Steel", "B": "Aluminum", "C": "Is destructive test", "D": "Concrete" },
+      "answer": "D"
+    },
+    {
+      "id": 73,
+      "question": "If a site engineer forgets to cast concrete cubes for test, what should he do?",
+      "options": { "A": "He should make same cubes next day", "B": "He should not do the test and trust ready mix", "C": "He should check with the plant if they made the cubes or do core test", "D": "He should use smidth hammer test" },
+      "answer": "C"
+    },
+    {
+      "id": 74,
+      "question": "What are the documents to be available with the contractor prior to the start of the project?",
+      "options": { "A": "Building permit", "B": "NOC from authorities like RTA, DEWA", "C": "Drawings, contract, trade license", "D": "All of above" },
+      "answer": "D"
+    },
+    {
+      "id": 75,
+      "question": "For G+3 buildings in Dubai usually foundation is used",
+      "options": { "A": "Mat foundation", "B": "Strip footing", "C": "Pile foundation", "D": "Isolated footing" },
+      "answer": "D"
+    },
+    {
+      "id": 76,
+      "question": "As per DM, tall buildings are those of minimum meter height measured from ground",
+      "options": { "A": "50m", "B": "70m", "C": "40m", "D": "60m" },
+      "answer": "A"
+    },
+    {
+      "id": 77,
+      "question": "Which test is done before casting the concrete in Dubai?",
+      "options": { "A": "Slump test", "B": "Temperature test", "C": "Cubes test", "D": "Both A and B" },
+      "answer": "D"
+    },
+    {
+      "id": 78,
+      "question": "The formwork of columns can be removed after",
+      "options": { "A": "3 days", "B": "7 days", "C": "4 days", "D": "1 day" },
+      "answer": "B"
+    },
+    {
+      "id": 79,
+      "question": "After 7 days of compressive strength test of cubes, what is the minimum value should be accepted?",
+      "options": { "A": "40%", "B": "50%", "C": "60%", "D": "65%" },
+      "answer": "C"
+    },
+    {
+      "id": 80,
+      "question": "SRC concrete is used in the construction in",
+      "options": { "A": "Piling work", "B": "Direct contact with soil", "C": "Contact with water", "D": "In all circumstances A, B, C" },
+      "answer": "D"
+    },
+    {
+      "id": 81,
+      "question": "Workability of concrete is measured by",
+      "options": { "A": "Thermometer", "B": "Mould", "C": "Smidth hammer", "D": "Slump cone" },
+      "answer": "D"
+    },
+    {
+      "id": 82,
+      "question": "The initial setting time of normal cement concrete is",
+      "options": { "A": "60 minutes", "B": "2 hours", "C": "10 hours", "D": "30 minutes" },
+      "answer": "B"
+    },
+    {
+      "id": 83,
+      "question": "What is the standard size of cubes taken for compressive strength test?",
+      "options": { "A": "50x50mm", "B": "100x100mm", "C": "200x200mm", "D": "150x150mm" },
+      "answer": "B"
+    },
+    {
+      "id": 84,
+      "question": "Why polythene sheet is used under the footing of buildings?",
+      "options": { "A": "To stop water seepage", "B": "To make the footing strong", "C": "To avoid evaporation", "D": "None" },
+      "answer": "A"
+    },
+    {
+      "id": 85,
+      "question": "If the 28 days result of the cubes compressive test is not satisfactory then what to do?",
+      "options": { "A": "Do smidth test", "B": "No need again", "C": "Make new cubes", "D": "Take core samples" },
+      "answer": "D"
+    },
+    {
+      "id": 86,
+      "question": "We provide strap beams in foundation or footing to avoid",
+      "options": { "A": "Cracks", "B": "Crushing", "C": "Settlement", "D": "Overturning" },
+      "answer": "D"
+    },
+    {
+      "id": 87,
+      "question": "The design of strap beam shows that the reinforcement is more in the",
+      "options": { "A": "Bottom", "B": "Mid", "C": "Top", "D": "All same" },
+      "answer": "A"
+    },
+    {
+      "id": 88,
+      "question": "After how many days can we remove the shuttering of 3.75mx4.75m room slab?",
+      "options": { "A": "14 days", "B": "7 days", "C": "28 days", "D": "10 days" },
+      "answer": "B"
+    },
+    {
+      "id": 89,
+      "question": "Expansion joints are provided in big structure to avoid",
+      "options": { "A": "Sound effect", "B": "Earth quake effect", "C": "Wind effect", "D": "Thermal effect or cracks" },
+      "answer": "D"
+    },
+    {
+      "id": 90,
+      "question": "Tests for bearing capacity of soil used is/are",
+      "options": { "A": "Plate load test", "B": "SPT", "C": "Cone penetration", "D": "All" },
+      "answer": "D"
+    }
+  ]
+}
