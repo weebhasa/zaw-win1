@@ -130,11 +130,14 @@ export function useQuestions(sourceUrl?: string) {
           }
 
           const all: Question[] = [];
+          // Ensure each question has a unique numeric id across all sets to avoid duplicate React keys
+          let idCounter = 1;
           for (const s of sets) {
             try {
               const data = await safeFetchJson(s.url ?? s.filename ?? s);
               const normalized = normalizeData(data);
-              all.push(...normalized);
+              const remapped = normalized.map((q) => ({ ...q, id: idCounter++ }));
+              all.push(...remapped);
             } catch (e) {
               // Skip individual set failures but continue processing others
               // eslint-disable-next-line no-console
