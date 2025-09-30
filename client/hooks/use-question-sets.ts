@@ -17,7 +17,8 @@ export function useQuestionSets() {
       try {
         setLoading(true);
         const res = await fetch("/api/question-sets", { cache: "no-store" });
-        if (!res.ok) throw new Error(`Failed to fetch question sets: ${res.status}`);
+        if (!res.ok)
+          throw new Error(`Failed to fetch question sets: ${res.status}`);
         const data = await res.json();
         if (mounted) setSets(Array.isArray(data) ? data : []);
       } catch (e: any) {
@@ -26,7 +27,9 @@ export function useQuestionSets() {
         if (mounted) setLoading(false);
       }
     })();
-    return () => { mounted = false; };
+    return () => {
+      mounted = false;
+    };
   }, []);
 
   return { sets, loading, error };

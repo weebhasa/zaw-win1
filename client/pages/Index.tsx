@@ -48,29 +48,33 @@ export default function Index() {
               <label className="mb-1 block text-sm font-medium text-foreground">
                 Choose session
               </label>
-              <Select value={session} onValueChange={setSession} disabled={isLoading}>
+              <Select
+                value={session}
+                onValueChange={setSession}
+                disabled={isLoading}
+              >
                 <SelectTrigger>
                   <SelectValue placeholder="Select session" />
                 </SelectTrigger>
                 <SelectContent>
-                  {sets && sets.length > 0 ? (
-                    sets.map((s) => (
-                      <SelectItem key={s.filename} value={s.filename}>
-                        {s.title}
-                      </SelectItem>
-                    ))
-                  ) : (
-                    Array.from({ length: totalSessions }).map((_, i) => (
-                      <SelectItem key={i} value={String(i)}>
-                        Session {i + 1}
-                      </SelectItem>
-                    ))
-                  )}
+                  {sets && sets.length > 0
+                    ? sets.map((s) => (
+                        <SelectItem key={s.filename} value={s.filename}>
+                          {s.title}
+                        </SelectItem>
+                      ))
+                    : Array.from({ length: totalSessions }).map((_, i) => (
+                        <SelectItem key={i} value={String(i)}>
+                          Session {i + 1}
+                        </SelectItem>
+                      ))}
                 </SelectContent>
               </Select>
             </div>
             <Button asChild size="lg" className="w-full sm:w-64">
-              <Link to={`/test?session=${encodeURIComponent(session)}`}>Start Test</Link>
+              <Link to={`/test?session=${encodeURIComponent(session)}`}>
+                Start Test
+              </Link>
             </Button>
           </div>
         </div>
