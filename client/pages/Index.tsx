@@ -49,9 +49,13 @@ export default function Index() {
 
   const isLoading = loading || setsLoading;
 
-  const currentGroup = useMemo(() => groups.find((g) => g.base === selectedBase) ?? null, [groups, selectedBase]);
+  const currentGroup = useMemo(
+    () => groups.find((g) => g.base === selectedBase) ?? null,
+    [groups, selectedBase],
+  );
 
-  const startSessionFilename = selectedPart || (currentGroup?.items?.[0]?.filename ?? "0");
+  const startSessionFilename =
+    selectedPart || (currentGroup?.items?.[0]?.filename ?? "0");
 
   return (
     <main className="relative">
@@ -76,7 +80,8 @@ export default function Index() {
                   onValueChange={(v) => {
                     setSelectedBase(v);
                     const g = groups.find((gg) => gg.base === v);
-                    if (g && g.items && g.items.length) setSelectedPart(g.items[0].filename);
+                    if (g && g.items && g.items.length)
+                      setSelectedPart(g.items[0].filename);
                   }}
                   disabled={isLoading}
                 >
@@ -120,7 +125,9 @@ export default function Index() {
 
             <div className="w-full sm:w-auto">
               <Button asChild size="lg" className="w-full sm:w-48">
-                <Link to={`/test?session=${encodeURIComponent(startSessionFilename)}`}>
+                <Link
+                  to={`/test?session=${encodeURIComponent(startSessionFilename)}`}
+                >
                   Start Test
                 </Link>
               </Button>

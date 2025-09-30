@@ -56,7 +56,12 @@ function normalizeArray(arr: any[]): Question[] {
 
 function normalizeData(data: any): Question[] {
   // Already normalized (array of Question-like objects)
-  if (Array.isArray(data) && data.length && data[0]?.question && data[0]?.type) {
+  if (
+    Array.isArray(data) &&
+    data.length &&
+    data[0]?.question &&
+    data[0]?.type
+  ) {
     return data as Question[];
   }
 
@@ -107,11 +112,15 @@ async function safeFetchJson(url: string) {
       try {
         return JSON.parse(text);
       } catch (e: any) {
-        lastError = new Error(`Invalid JSON from ${u}: ${e?.message ?? String(e)}`);
+        lastError = new Error(
+          `Invalid JSON from ${u}: ${e?.message ?? String(e)}`,
+        );
         continue;
       }
     } catch (e: any) {
-      lastError = new Error(`Network error fetching ${u}: ${e?.message ?? String(e)}`);
+      lastError = new Error(
+        `Network error fetching ${u}: ${e?.message ?? String(e)}`,
+      );
       continue;
     }
   }
@@ -169,7 +178,10 @@ export function useQuestions(sourceUrl?: string) {
             try {
               const data = await safeFetchJson(s.url ?? s.filename ?? s);
               const normalized = normalizeData(data);
-              const remapped = normalized.map((q) => ({ ...q, id: idCounter++ }));
+              const remapped = normalized.map((q) => ({
+                ...q,
+                id: idCounter++,
+              }));
               all.push(...remapped);
             } catch (e) {
               // Skip individual set failures but continue processing others
