@@ -13,6 +13,8 @@ import {
   SelectLabel,
 } from "@/components/ui/select";
 
+import { useEffect, useMemo, useState } from "react";
+
 export default function Index() {
   const { questions, loading } = useQuestions();
   const { sets, loading: setsLoading } = useQuestionSets();
@@ -22,16 +24,35 @@ export default function Index() {
     return Math.max(1, count);
   }, [questions]);
 
-  const [session, setSession] = useState<string>("0");
-
-  // When sets load, default to first set if available
-  useEffect(() => {
-    if (sets && sets.length && session === "0") {
-      setSession(sets[0].filename);
+  // Group sets by base title
+  const groups = useMemo(() => {
+    if (!sets) return [] as { base: string; items: typeof sets }[];
+    const map = new Map<string, typeof sets>();
+    for (const s of sets) {
+      const m = s.title.match(/^(.*)\bPart\b\s*\d+/i);
+      const base = m ? m[1].trim() : s.title;
+      if (!map.has(base)) map.set(base, [] as typeof sets);
+      map.get(base)!.push(s);
     }
+    return Array.from(map.entries()).map(([base, items]) => ({ base, items }));
   }, [sets]);
 
+  const [selectedBase, setSelectedBase] = useState<string>("\0");
+  const [selectedPart, setSelectedPart] = useState<string>("");
+
+  // Initialize selection when groups load
+  useEffect(() => {
+    if (!groups || groups.length === 0) return;
+    const first = groups[0];
+    setSelectedBase(first.base);
+    setSelectedPart(first.items[0]?.filename ?? "");
+  }, [groups]);
+
   const isLoading = loading || setsLoading;
+
+  const currentGroup = useMemo(() => groups.find((g) => g.base === selectedBase) ?? null, [groups, selectedBase]);
+
+  const startSessionFilename = selectedPart || (currentGroup?.items?.[0]?.filename ?? "0");
 
   return (
     <main className="relative">
