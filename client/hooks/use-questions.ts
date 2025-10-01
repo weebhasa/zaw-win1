@@ -157,15 +157,29 @@ export function useQuestions(sourceUrl?: string) {
 
         // No specific source: discover all sets and aggregate their questions
         try {
-          const sets = await safeFetchJson("/api/question-sets");
+          let sets: any = [];
+          try {
+            sets = await safeFetchJson("/api/question-sets");
+          } catch {
+            sets = [];
+          }
+
+          // Fallback to static manifest when API isn't available (e.g., Netlify static)
           if (!Array.isArray(sets) || sets.length === 0) {
-            // Fallback: try /questions.json (legacy)
+            try {
+              sets = await safeFetchJson("/question-sets.json");
+            } catch {
+              sets = [];
+            }
+          }
+
+          if (!Array.isArray(sets) || sets.length === 0) {
+            // Legacy single-file fallback
             try {
               const data = await safeFetchJson("/questions.json");
               const normalized = normalizeData(data);
               if (mounted) setQuestions(normalized);
             } catch (e: any) {
-              // No questions found
               if (mounted) setQuestions([]);
             }
             return;
