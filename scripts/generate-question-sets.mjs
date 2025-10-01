@@ -10,14 +10,24 @@ try {
   }
 
   const files = fs.readdirSync(publicDir);
-  const sets = files
-    .filter((f) => /Questions\.json$/i.test(f))
-    .sort((a, b) => a.localeCompare(b))
-    .map((filename) => ({
-      filename,
-      url: `/${encodeURI(filename)}`,
-      title: filename.replace(/\.json$/i, ""),
-    }));
+  const filtered = files.filter((f) => /Questions\.json$/i.test(f));
+
+  const withStat = filtered.map((filename) => {
+    try {
+      const stat = fs.statSync(path.join(publicDir, filename));
+      return { filename, mtime: stat.mtimeMs };
+    } catch {
+      return { filename, mtime: 0 };
+    }
+  });
+
+  withStat.sort((a, b) => b.mtime - a.mtime);
+
+  const sets = withStat.map(({ filename }) => ({
+    filename,
+    url: `/${encodeURI(filename)}`,
+    title: filename.replace(/\.json$/i, ""),
+  }));
 
   const outPath = path.join(publicDir, "question-sets.json");
   fs.writeFileSync(outPath, JSON.stringify(sets, null, 2));
