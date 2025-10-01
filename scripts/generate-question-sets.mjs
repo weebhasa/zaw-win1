@@ -21,7 +21,8 @@ try {
     }
   });
 
-  withStat.sort((a, b) => b.mtime - a.mtime);
+  // Sort ascending by mtime (oldest first) so newest appear last
+  withStat.sort((a, b) => a.mtime - b.mtime);
 
   const sets = withStat.map(({ filename }) => ({
     filename,
