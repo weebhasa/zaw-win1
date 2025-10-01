@@ -1,0 +1,280 @@
+{
+  "title": "New Question for G+1 & G+4 Steel Contracting - Part 1",
+  "questions": [
+    {
+      "id": 1,
+      "question": "W/C is mix of",
+      "options": {
+        "A": "Water to cement ratio with respect to weight.",
+        "B": "Cement to aggregate ratio",
+        "C": "Water to aggregate ratio",
+        "D": "Cement to water ratio"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "Minimum days to deshutter the beam sides",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "7",
+        "D": "14"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Cube test is taken for or done for",
+      "options": {
+        "A": "To determine the compressive strength of concrete.",
+        "B": "To determine the workability of concrete",
+        "C": "To check cement hydration",
+        "D": "To test aggregate quality"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "Water content increase in concrete than?",
+      "options": {
+        "A": "Compressive strength of concrete decrease while the workability increase.",
+        "B": "Compressive strength increases and workability decreases",
+        "C": "Compressive strength remains same",
+        "D": "Workability decreases only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "Adding admixtures in concrete?",
+      "options": {
+        "A": "increase durability",
+        "B": "reduce segregation",
+        "C": "increase workability",
+        "D": "All"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "question": "Curing of concrete is?",
+      "options": {
+        "A": "Adding adequate water while concrete is gaining strength or keeping concrete moisture to allow the hydration reaction.",
+        "B": "Keeping concrete dry after casting",
+        "C": "Applying heat to accelerate setting",
+        "D": "Removing water after initial set"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "HEA 280B height is?",
+      "options": {
+        "A": "300",
+        "B": "270",
+        "C": "400",
+        "D": "280"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "UB 533x210 height is?",
+      "options": {
+        "A": "533 inches is the height or depth and 210 is width.",
+        "B": "533mm width and 210mm height",
+        "C": "Height 210 and width 533",
+        "D": "Both are widths"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "question": "UPN is?",
+      "options": {
+        "A": "Channels",
+        "B": "Beams",
+        "C": "Columns",
+        "D": "Plates"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "HEA which standard?",
+      "options": {
+        "A": "European standard steel beams.",
+        "B": "American standard beams",
+        "C": "British standard beams",
+        "D": "Australian standard beams"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "205x205x97 weight per m?",
+      "options": {
+        "A": "97 kg/m",
+        "B": "205 kg/m",
+        "C": "205 kg",
+        "D": "97 kg"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "Yield strength of grade 60 steel?",
+      "options": {
+        "A": "60000 pounds per square inch or 420 Mpa",
+        "B": "50000 psi",
+        "C": "350 Mpa",
+        "D": "600 Mpa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "question": "Yield strength of grade 60 steel 16mm?",
+      "options": {
+        "A": "60000 pounds per square inch or 420 Mpa",
+        "B": "50000 psi",
+        "C": "350 Mpa",
+        "D": "600 Mpa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question": "Yield strength of grade 43 (S275 new name) steel 63mm?",
+      "options": {
+        "A": "255 N/mm2 while for grade50 is 335 N/mm2",
+        "B": "300 N/mm2",
+        "C": "200 N/mm2",
+        "D": "335 N/mm2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "Eave connection between?",
+      "options": {
+        "A": "Column and beam",
+        "B": "Beam and beam",
+        "C": "Column and column",
+        "D": "Beam and slab"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "Allowable sway in column with full block work while wind force?",
+      "options": {
+        "A": "H/400 to H/500. Mostly used H/500",
+        "B": "H/200",
+        "C": "H/100",
+        "D": "H/300"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "question": "Vertical deflection of floors members for DL+LL?",
+      "options": {
+        "A": "Span/240 or L/240",
+        "B": "L/200",
+        "C": "L/180",
+        "D": "L/360"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "question": "When large radius of gyration is not required?",
+      "options": {
+        "A": "Channel flanges are kept inward",
+        "B": "Channels are placed back to back",
+        "C": "Flanges outward",
+        "D": "Any position"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "Plate girders outside Flange t is?",
+      "options": {
+        "A": "16t",
+        "B": "10t",
+        "C": "12t",
+        "D": "20t"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "question": "Minimum thickness of plate in PreEngineering?",
+      "options": {
+        "A": "6mm",
+        "B": "4mm",
+        "C": "8mm",
+        "D": "10mm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "Battern plates?",
+      "options": {
+        "A": "Are steel plates uniting the angles or flanges of composite girders, columns or strut.",
+        "B": "Are steel plates for covering beams",
+        "C": "Are steel plates for roofing",
+        "D": "Are base plates"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "question": "Laced strut design when?",
+      "options": {
+        "A": "Rx>Ry means when there is eccentric load to carry",
+        "B": "Always for columns",
+        "C": "Never required",
+        "D": "For beams only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "question": "Compressive forces acting and member of longitudinal support named?",
+      "options": {
+        "A": "All",
+        "B": "Column",
+        "C": "Strut",
+        "D": "Post"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "question": "Horizontal forces transverse to rails for electric operated cranes?",
+      "options": {
+        "A": "10% of the vertical load",
+        "B": "5%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "Minimum inclination?",
+      "options": {
+        "A": "20 degrees",
+        "B": "15 degrees",
+        "C": "30 degrees",
+        "D": "25 degrees"
+      },
+      "answer": "A"
+    }
+  ]
+}

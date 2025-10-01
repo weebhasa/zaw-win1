@@ -1,0 +1,280 @@
+{
+  "title": "Questions for G+12 and G+ Unlimited - Part 2",
+  "questions": [
+    {
+      "id": 26,
+      "question": "For non-cohesive soil like silty sand which dewatering technique is suitable?",
+      "options": {
+        "A": "deepwells",
+        "B": "Flood control",
+        "C": "Bypass",
+        "D": "Well point system"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 27,
+      "question": "In prestressed concrete beams, the loss is due to which of the following?",
+      "options": {
+        "A": "Elastic shortening",
+        "B": "shrinkage of concrete",
+        "C": "relaxation of steel",
+        "D": "All"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 28,
+      "question": "When the prestress is transferred to concrete in pre-tensioned concrete, the member shortens and the prestressing steel in it.",
+      "options": {
+        "A": "stressed",
+        "B": "increase in length",
+        "C": "remain same",
+        "D": "shortens"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "The main purpose of providing pour strip in post tensioning slab in Dubai is",
+      "options": {
+        "A": "to stress tendons easily",
+        "B": "to separate slabs",
+        "C": "water flow",
+        "D": "control elastic shortening"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "question": "What is the value of poisson ratio for concrete of Pt slab?",
+      "options": {
+        "A": "0.3",
+        "B": "0.4",
+        "C": "0.25",
+        "D": "0.2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "question": "The maximum allowable settlement in the raft foundation is",
+      "options": {
+        "A": "30mm",
+        "B": "25mm",
+        "C": "40mm",
+        "D": "50mm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 32,
+      "question": "As the column height in RCC building increase, the reinforcement",
+      "options": {
+        "A": "increase",
+        "B": "no change",
+        "C": "size of column increase",
+        "D": "decrease"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 33,
+      "question": "In a 3 storey building, the live load of upper floors is taken by",
+      "options": {
+        "A": "beams and column of first floor",
+        "B": "beams only",
+        "C": "first slabs",
+        "D": "column only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "The final setting time of normal cement concrete is",
+      "options": {
+        "A": "5 hours",
+        "B": "3 hours",
+        "C": "7 hours",
+        "D": "10 hours"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 35,
+      "question": "The modulus of elasticity for concrete element is",
+      "options": {
+        "A": "4700xfc’",
+        "B": "57000xfc’",
+        "C": "5700x(fc’)0.5",
+        "D": "4700x(fc’)0.5"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 36,
+      "question": "As per ACI code, what is the maximum deflection for horizontal member due to live load is",
+      "options": {
+        "A": "L/100",
+        "B": "L/240",
+        "C": "L/360",
+        "D": "L/180"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 37,
+      "question": "The effect of liquefaction on the soil",
+      "options": {
+        "A": "Settlement",
+        "B": "land sliding",
+        "C": "loss of lateral stiffness",
+        "D": "All"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 38,
+      "question": "The effective length K factor for column with both ends fixed is",
+      "options": {
+        "A": "2",
+        "B": "0.5",
+        "C": "1.5",
+        "D": "0.65"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "question": "When the mixture is mixed in the plant the time should not be less than",
+      "options": {
+        "A": "10s",
+        "B": "20s",
+        "C": "30s",
+        "D": "50s"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 40,
+      "question": "For heavily reinforced concrete members the nominal maximum size of aggregate shall be",
+      "options": {
+        "A": "20mm",
+        "B": "10mm",
+        "C": "15mm",
+        "D": "5mm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 41,
+      "question": "The strength of normal concrete primarily depends upon the",
+      "options": {
+        "A": "Workability",
+        "B": "Aggregate ratio",
+        "C": "cement content",
+        "D": "W/c ratio"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 42,
+      "question": "In massive structures like Corewall, concrete should be placed in",
+      "options": {
+        "A": "Edge layers",
+        "B": "Longitudinal layers",
+        "C": "Horizontal layers",
+        "D": "place all in one time"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 43,
+      "question": "In the case of horizontal shallow beams, concrete should preferably deposited starting from",
+      "options": {
+        "A": "Edge of span",
+        "B": "outer portion of span",
+        "C": "inner portion",
+        "D": "Centre of span"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "The maximum area of tension steel in beams shall not exceed",
+      "options": {
+        "A": "2%",
+        "B": "1%",
+        "C": "1.5%",
+        "D": "4%"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "We should not use longitudinal reinforcement bars in column less than 12mm",
+      "options": {
+        "A": "to avoid cracks",
+        "B": "avoid crush",
+        "C": "we can use 10mm",
+        "D": "due to buckling"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "The minimum cube strength of concrete used for a prestressed member is Kg/cm2",
+      "options": {
+        "A": "50",
+        "B": "150",
+        "C": "250",
+        "D": "350"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "question": "The number of treads in a flight of stairs is equal to",
+      "options": {
+        "A": "risers in flight",
+        "B": "riser plus 2",
+        "C": "riser plus 1",
+        "D": "riser minus 1"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 48,
+      "question": "For initial estimate of non-cantilever beam design the width is taken as",
+      "options": {
+        "A": "1/15th of Span",
+        "B": "Span/20",
+        "C": "Span/10",
+        "D": "Span/30"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 49,
+      "question": "The formwork from the roof slabs excluding props can be removed only after",
+      "options": {
+        "A": "3 days",
+        "B": "7 days",
+        "C": "21 days",
+        "D": "14 days"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 50,
+      "question": "In fumigation process for the timber truss is cover with chemicals in tablets form for",
+      "options": {
+        "A": "3 days",
+        "B": "48 hours",
+        "C": "12 hours",
+        "D": "24 hours"
+      },
+      "answer": "B"
+    }
+  ]
+}

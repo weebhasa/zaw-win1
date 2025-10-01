@@ -1,0 +1,291 @@
+{
+  "title": "New Question for G+12 and Unlimited - Part 2",
+  "questions": [
+    {
+      "id": 27,
+      "question": "The limit for inter storey lateral drift due to wind force is",
+      "options": {
+        "A": "H/400 to H/600",
+        "B": "H/300 to H/500",
+        "C": "H/200 to H/400",
+        "D": "H/500 to H/700"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Wind tunnel testing is required for buildings as per DM rule with height more than",
+      "options": {
+        "A": "50m",
+        "B": "90mm",
+        "C": "100m",
+        "D": "120m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "question": "In all cases, the designed wind pressure shall not be less than",
+      "options": {
+        "A": "2 KN/m2",
+        "B": "0.5 KN/m2",
+        "C": "1.5 KN/m2",
+        "D": "1 KN/m2"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "question": "Grouting of the PT slab tendons shall be done at least how many days before removing shuttering?",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "3",
+        "D": "14"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "Water to cement ratio is taken with respect to",
+      "options": {
+        "A": "Volume",
+        "B": "Density",
+        "C": "Weight",
+        "D": "Dimension"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 32,
+      "question": "In steel structure, Eve connection is between",
+      "options": {
+        "A": "Columns",
+        "B": "Beam to beam",
+        "C": "Beam to column",
+        "D": "Roof to beam"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "question": "Apex connection is between",
+      "options": {
+        "A": "Beam and beam",
+        "B": "Beam and column",
+        "C": "Column and column",
+        "D": "Anywhere"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "Solid blocks and blocks for load bearing wall shall have compressive strength not less than",
+      "options": {
+        "A": "12 N/mm2",
+        "B": "10 N/mm2",
+        "C": "7.5 N/mm2",
+        "D": "9 N/mm2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "question": "Hollow blocks and blocks for non-load bearing wall shall have strength not less than",
+      "options": {
+        "A": "7.5 N/mm2",
+        "B": "7 N/mm2",
+        "C": "5 N/mm2",
+        "D": "6 N/mm2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "The minimum yield strength fy of the Angles used in steel structure as per British standards is",
+      "options": {
+        "A": "355 N/mm2",
+        "B": "250 N/mm2",
+        "C": "300 N/mm2",
+        "D": "275 N/mm2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "The recommended minimum thickness of the PT slab as per DM rule is",
+      "options": {
+        "A": "100mm",
+        "B": "150mm",
+        "C": "175mm",
+        "D": "200mm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "question": "The jacking force to stress the cables shall not exceed what percent of the total tendons tensile strength?",
+      "options": {
+        "A": "50%",
+        "B": "60%",
+        "C": "70%",
+        "D": "80%"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 39,
+      "question": "The wall thickness of the metal duct used in PT slab tendons shall not be less than",
+      "options": {
+        "A": "2mm",
+        "B": "1mm",
+        "C": "0.5mm",
+        "D": "0.4mm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "question": "Grouts in tendons shall have a strength not less than strength of the concrete at how many days",
+      "options": {
+        "A": "3 days",
+        "B": "7 days",
+        "C": "14 days",
+        "D": "28 days"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "question": "The minimum concrete clear cover for substructure if it has direct contact with soil is",
+      "options": {
+        "A": "50mm",
+        "B": "65mm",
+        "C": "100mm",
+        "D": "75mm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 42,
+      "question": "The concrete used for structural elements shall have compressive strength f’c not less than",
+      "options": {
+        "A": "40 N/mm2",
+        "B": "30 N/mm2",
+        "C": "28 N/mm2",
+        "D": "20 N/mm2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 43,
+      "question": "Plate girders are considered as shallow if the depth of the plate girder is less than",
+      "options": {
+        "A": "900mm",
+        "B": "700mm",
+        "C": "500mm",
+        "D": "750mm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "The web plate is provided with stiffeners when the ratio of the clear depth to thickness of the web is greater than",
+      "options": {
+        "A": "58",
+        "B": "75",
+        "C": "68",
+        "D": "85"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 45,
+      "question": "Web buckling due to shear will not happen i.e. no need of stiffeners when d/tw <",
+      "options": {
+        "A": "85",
+        "B": "75",
+        "C": "68",
+        "D": "58"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "When building is completed then shoring beams are cut at level of in case of adjacent plot.",
+      "options": {
+        "A": "1m",
+        "B": "2m",
+        "C": "3m",
+        "D": "5m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "question": "The most common type of shoring system used in UAE is",
+      "options": {
+        "A": "Secant piles",
+        "B": "Sheet piles",
+        "C": "Wall",
+        "D": "I beam or soldier piles"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 48,
+      "question": "Minimum overlap length between secant piles is",
+      "options": {
+        "A": "25mm",
+        "B": "50mm",
+        "C": "75mm",
+        "D": "100mm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "question": "The maximum angle of excavation is degrees",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "35",
+        "D": "40"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 50,
+      "question": "Minimum distance from the edge of plate to the center of bolt is",
+      "options": {
+        "A": "2.5D",
+        "B": "2D",
+        "C": "1D",
+        "D": "1.5D"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "question": "The hydrogeological model for dewatering must be prepared for at least below the bottom of the excavation",
+      "options": {
+        "A": "50m",
+        "B": "40m",
+        "C": "25m",
+        "D": "20m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 52,
+      "question": "The permeability is usually measured in units of",
+      "options": {
+        "A": "N/m",
+        "B": "N/min",
+        "C": "kg/s",
+        "D": "m/s"
+      },
+      "answer": "D"
+    }
+  ]
+}

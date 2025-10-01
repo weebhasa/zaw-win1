@@ -1,0 +1,280 @@
+{
+  "title": "New Question for G+1 & G+4 Steel Contracting - Part 2",
+  "questions": [
+    {
+      "id": 26,
+      "question": "HE 300B width is?",
+      "options": {
+        "A": "B=300 and h= 300",
+        "B": "B=250 and h=300",
+        "C": "B=300 and h=250",
+        "D": "B=320 and h=320"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 27,
+      "question": "Column moulds deshuttering time after casting concrete?",
+      "options": {
+        "A": "2 days",
+        "B": "5 days",
+        "C": "7 days",
+        "D": "10 days"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Footing deshuttering time?",
+      "options": {
+        "A": "3 days",
+        "B": "7 days",
+        "C": "5 days",
+        "D": "1 day"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "Water content increase in concrete, compressive strength will?",
+      "options": {
+        "A": "Decrease",
+        "B": "Increase",
+        "C": "Remain same",
+        "D": "Unchanged"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 30,
+      "question": "Allowable temperature of concrete while casting?",
+      "options": {
+        "A": "28C",
+        "B": "30C",
+        "C": "36C",
+        "D": "32C"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "question": "In super structure concrete, which type of cement is used?",
+      "options": {
+        "A": "OPC",
+        "B": "SRC",
+        "C": "PPC",
+        "D": "Blended cement"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 32,
+      "question": "In sub structure concrete, which cement is used?",
+      "options": {
+        "A": "SRC(sulfate resisting cement)",
+        "B": "OPC",
+        "C": "PPC",
+        "D": "Blended cement"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 33,
+      "question": "Column clear cover for below ground level?",
+      "options": {
+        "A": "15mm",
+        "B": "100mm",
+        "C": "50mm",
+        "D": "Any one"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "533x210x122 weight per meter?",
+      "options": {
+        "A": "533",
+        "B": "210",
+        "C": "122",
+        "D": "500"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 35,
+      "question": "Apex connection is in between?",
+      "options": {
+        "A": "beam & beam",
+        "B": "beam & column",
+        "C": "column & column",
+        "D": "anywhere"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "question": "Two equal wheel loads act where maximum bending moment?",
+      "options": {
+        "A": "L/4",
+        "B": "L/3",
+        "C": "near support",
+        "D": "L/2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "A36 118 kN.m than which beam is safe?",
+      "options": {
+        "A": "500",
+        "B": "700",
+        "C": "900",
+        "D": "3200"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 38,
+      "question": "Which of the following is weld test method?",
+      "options": {
+        "A": "LPI",
+        "B": "magnetic test",
+        "C": "ultrasonic sound test",
+        "D": "All"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 39,
+      "question": "Tie beam cover below ground level is?",
+      "options": {
+        "A": "50mm",
+        "B": "100mm",
+        "C": "25mm",
+        "D": "75mm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "question": "Batten plate height or depth?",
+      "options": {
+        "A": "4 times of width",
+        "B": "6 times of t",
+        "C": "23 times of width",
+        "D": "2 times of width"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "question": "RHS is which hollow section?",
+      "options": {
+        "A": "Rectangular hollow section",
+        "B": "Circular hollow section",
+        "C": "Square hollow section",
+        "D": "I-section"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 42,
+      "question": "UPN is?",
+      "options": {
+        "A": "beam section",
+        "B": "column section",
+        "C": "I beam",
+        "D": "channel section"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 43,
+      "question": "Grade50 yield strength for 16mm plate?",
+      "options": {
+        "A": "335",
+        "B": "275",
+        "C": "235",
+        "D": "355"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "Impact load for crane girders for electric operated crane is?",
+      "options": {
+        "A": "25% of the vertical load",
+        "B": "10%",
+        "C": "50%",
+        "D": "15%"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "The effective length of Simply supported beam restrained against torsion and flanges restrain partially against lateral bending is?",
+      "options": {
+        "A": "L",
+        "B": "0.75L",
+        "C": "0.7L",
+        "D": "0.85L"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "Intermediate vertical stiffeners in plate girder need to be provided if the depth of web exceeds?",
+      "options": {
+        "A": "50t",
+        "B": "100t",
+        "C": "200t",
+        "D": "85t"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "The effective length of a battened column is increased by?",
+      "options": {
+        "A": "20%",
+        "B": "15%",
+        "C": "5%",
+        "D": "10%"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 48,
+      "question": "For a cantilever beam of length L built in at the support and restrained against torsion at the free end, the effective length is?",
+      "options": {
+        "A": "0.5L",
+        "B": "2L",
+        "C": "0.7L",
+        "D": "0.75L"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "question": "For a cantilever beam of length L continuous at the support and unrestrained against torsion at the support and free end, the effective length is?",
+      "options": {
+        "A": "3L",
+        "B": "2L",
+        "C": "L",
+        "D": "0.5L"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "The effective length of a compression member of length L held in position and restrained in direction at both ends is?",
+      "options": {
+        "A": "0.67L",
+        "B": "0.5L",
+        "C": "L",
+        "D": "0.75L"
+      },
+      "answer": "A"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "title": "Questions for G+12 and G+ Unlimited - Part 1",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Why are vibrators not used in piles concrete during casting for compaction?",
+      "options": {
+        "A": "concrete of pile is of high strength",
+        "B": "compaction is not necessary in concrete",
+        "C": "the concrete is of high slump and is self compacting",
+        "D": "vibrators are not allowed"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "As per DM the most suitable technique for deep compaction used in Dubai is",
+      "options": {
+        "A": "soil removal",
+        "B": "vertical drains",
+        "C": "grouting",
+        "D": "vibro compaction"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 3,
+      "question": "Vibro compaction is the dynamic process used to reduce the volume of soil by",
+      "options": {
+        "A": "removing soil",
+        "B": "replacing soil",
+        "C": "adding stone columns",
+        "D": "expelling air"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "question": "The foundation in which a cantilever beam is provided to join 2 footing is called",
+      "options": {
+        "A": "strip footing",
+        "B": "combined",
+        "C": "raft",
+        "D": "strap"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 5,
+      "question": "Pile foundation is suitable for soils.",
+      "options": {
+        "A": "Soft rocky soil",
+        "B": "compact soil",
+        "C": "multi storey building",
+        "D": "water logged soil"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "question": "The compaction of concrete in the drilled pile hole is done by compressed air in case of",
+      "options": {
+        "A": "Franki pile",
+        "B": "vibro pile",
+        "C": "simplex pile",
+        "D": "pressure pile"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "The minimum depth of foundation or footing in case of clay soil is",
+      "options": {
+        "A": "1m",
+        "B": "0.7m",
+        "C": "1.2m",
+        "D": "0.9m"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Generally the bearing capacity of granite is Kg/cm2",
+      "options": {
+        "A": "5-10",
+        "B": "40-45",
+        "C": "15-20",
+        "D": "30-35"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "The form work including the props can be removed from beams minimum after days",
+      "options": {
+        "A": "3 days",
+        "B": "7",
+        "C": "21",
+        "D": "14 days"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "The pile which supports the load partly by friction and partly by resting on hard strata is",
+      "options": {
+        "A": "friction pile",
+        "B": "bearing pile",
+        "C": "rough pile",
+        "D": "friction bearing pile"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 11,
+      "question": "The function of the grouting in post tensioning tendons is to",
+      "options": {
+        "A": "Protect the tendons from corrosion",
+        "B": "make the slab more strong",
+        "C": "provide bond between tendons and the concrete",
+        "D": "Both A and C are correct"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 12,
+      "question": "The minimum thickness of post tensioning slab is",
+      "options": {
+        "A": "15cm",
+        "B": "120mm",
+        "C": "300mm",
+        "D": "20cm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "The stressing of post tensioning cables in Dubai is done after days",
+      "options": {
+        "A": "3 days",
+        "B": "10 days",
+        "C": "21 days",
+        "D": "7 days"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 14,
+      "question": "The first layer of the block masonry in buildings walls should be",
+      "options": {
+        "A": "Thermal block",
+        "B": "hollow blocks",
+        "C": "ACC block",
+        "D": "Solid blocks"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 15,
+      "question": "The dewatering techniques used in Dubai for disposing water from construction site",
+      "options": {
+        "A": "Bypass",
+        "B": "Flood control",
+        "C": "deepwells",
+        "D": "Both Wellpoint and deepwells"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 16,
+      "question": "For non-cohesive soil like silty sand which dewatering technique is suitable?",
+      "options": {
+        "A": "deepwells",
+        "B": "Flood control",
+        "C": "Bypass",
+        "D": "Well point system"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 17,
+      "question": "In prestressed concrete beams, the loss is due to which of the following?",
+      "options": {
+        "A": "Elastic shortening",
+        "B": "shrinkage of concrete",
+        "C": "relaxation of steel",
+        "D": "All"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "question": "When the prestress is transferred to concrete in pre-tensioned concrete, the member shortens and the prestressing steel in it.",
+      "options": {
+        "A": "stressed",
+        "B": "increase in length",
+        "C": "remain same",
+        "D": "shortens"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "The main purpose of providing pour strip in post tensioning slab in Dubai is",
+      "options": {
+        "A": "to stress tendons easily",
+        "B": "to separate slabs",
+        "C": "water flow",
+        "D": "control elastic shortening"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "What is the value of poisson ratio for concrete of Pt slab?",
+      "options": {
+        "A": "0.3",
+        "B": "0.4",
+        "C": "0.25",
+        "D": "0.2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "The maximum allowable settlement in the raft foundation is",
+      "options": {
+        "A": "30mm",
+        "B": "25mm",
+        "C": "40mm",
+        "D": "50mm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 22,
+      "question": "As the column height in RCC building increase, the reinforcement",
+      "options": {
+        "A": "increase",
+        "B": "no change",
+        "C": "size of column increase",
+        "D": "decrease"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "question": "In a 3 storey building, the live load of upper floors is taken by",
+      "options": {
+        "A": "beams and column of first floor",
+        "B": "beams only",
+        "C": "first slabs",
+        "D": "column only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "question": "The final setting time of normal cement concrete is",
+      "options": {
+        "A": "5 hours",
+        "B": "3 hours",
+        "C": "7 hours",
+        "D": "10 hours"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "The modulus of elasticity for concrete element is",
+      "options": {
+        "A": "4700xfc’",
+        "B": "57000xfc’",
+        "C": "5700x(fc’)0.5",
+        "D": "4700x(fc’)0.5"
+      },
+      "answer": "D"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "title": "Consultants / Structural Engineer Exam - Part 3",
+  "questions": [
+    {
+      "id": 51,
+      "question": "A cantilever beam is loaded at the far end by 100 N load and length is 10m. The maximum bending moment produced is",
+      "options": {
+        "A": "2KNm",
+        "B": "10KNm",
+        "C": "0.1KNm",
+        "D": "1KNm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 52,
+      "question": "The dynamic analysis is performed for irregular buildings of storey above",
+      "options": {
+        "A": "10m",
+        "B": "15m",
+        "C": "25m",
+        "D": "19.8m"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 53,
+      "question": "The toe depth of pile with respect to diameter of pile in the rock soil is",
+      "options": {
+        "A": "3D",
+        "B": "1D",
+        "C": "5D",
+        "D": "2D"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "Maximum storey drift ΔM for time period T < 0.7sec is",
+      "options": {
+        "A": "ΔM = 0.7 x RxΔS > 0.025H",
+        "B": "ΔM = 0.5 x H",
+        "C": "ΔM = 0.01 x T",
+        "D": "ΔM = H/50"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "The maximum vertical reinforcement in columns in case of overlap is",
+      "options": {
+        "A": "8%",
+        "B": "5%",
+        "C": "1%",
+        "D": "4%"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 56,
+      "question": "The maximum deflection for piles as per DM rules is",
+      "options": {
+        "A": "10%",
+        "B": "5%",
+        "C": "0.1%",
+        "D": "1%"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "question": "The maximum length anchors in shoring system as per DM requirements is",
+      "options": {
+        "A": "7m",
+        "B": "5m",
+        "C": "15m",
+        "D": "10m"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 58,
+      "question": "The effect of liquefaction on soil due to EQ load is",
+      "options": {
+        "A": "land sliding",
+        "B": "loss of stiffness",
+        "C": "loss of Bearing Capacity",
+        "D": "All"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 59,
+      "question": "The minimum spacing between piles as per DM requirements in terms of diameter is",
+      "options": {
+        "A": "1D",
+        "B": "2D",
+        "C": "1.5D",
+        "D": "2.5D"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 60,
+      "question": "New buildings in Dubai of 10 floors or more will be built to withstand forces created by Earthquake of up to a magnitude",
+      "options": {
+        "A": "7",
+        "B": "4",
+        "C": "3",
+        "D": "5.9"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 61,
+      "question": "The Dubai municipality has announced that buildings taller than 10 floors as well as schools and hospitals should withstand Earthquake of magnitude",
+      "options": {
+        "A": "5 - 5.9 (zone 2B)",
+        "B": "4 - 5.5",
+        "C": "6 - 6.5",
+        "D": "3 - 4.5"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 62,
+      "question": "Burj Khalifa tower can withstand wind speed up to",
+      "options": {
+        "A": "100 Km/hr",
+        "B": "200 Km/hr",
+        "C": "140 Km/hr",
+        "D": "160 Km/hr"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 63,
+      "question": "In steel structures Bolts A325, A449 and A490 are",
+      "options": {
+        "A": "low strength",
+        "B": "medium strength",
+        "C": "low carbon",
+        "D": "high strength"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 64,
+      "question": "Which of the following is not the US bolt grade?",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "8",
+        "D": "3"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 65,
+      "question": "A325 bolt is made of medium carbon steel and its tensile strength with increase in dia",
+      "options": {
+        "A": "increase",
+        "B": "remain same",
+        "C": "first increase then decrease",
+        "D": "decrease"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 66,
+      "question": "The maximum tensile strength of ASTM A36 steel is MPa",
+      "options": {
+        "A": "250",
+        "B": "300",
+        "C": "460",
+        "D": "550"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "As per BS 4360, the allowable strength for 16mm thick grade 55 steel plate is MPa",
+      "options": {
+        "A": "275",
+        "B": "550",
+        "C": "375",
+        "D": "450"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "question": "Bolts are designed to resist failure in",
+      "options": {
+        "A": "shearing",
+        "B": "bearing",
+        "C": "tearing",
+        "D": "All"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 69,
+      "question": "The minimum spacing for bolts as per BS 5950 is",
+      "options": {
+        "A": "spacing a along long direction a>=2.5d and short direction b>=2.5d",
+        "B": "spacing a>=1d",
+        "C": "spacing b>=1.5d",
+        "D": "spacing a>=3d"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "The minimum distance between piles as per DM requirements is",
+      "options": {
+        "A": "1D",
+        "B": "2D",
+        "C": "3D",
+        "D": "2.5D"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 71,
+      "question": "The minimum distance between ground anchors in shoring system is",
+      "options": {
+        "A": "1.2m",
+        "B": "1m",
+        "C": "1.5m",
+        "D": "2m"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 72,
+      "question": "The minimum and maximum length of ground anchors for shoring system is",
+      "options": {
+        "A": "3m and 10m respectively",
+        "B": "2m and 8m",
+        "C": "5m and 12m",
+        "D": "1m and 15m"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 73,
+      "question": "The maximum angle of excavation as per DM rules is",
+      "options": {
+        "A": "40 degree",
+        "B": "35 degree",
+        "C": "30 degree",
+        "D": "45 degree"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 74,
+      "question": "The minimum angle of excavation is",
+      "options": {
+        "A": "25 degree. Mostly used is 35 degrees",
+        "B": "20 degree",
+        "C": "30 degree",
+        "D": "15 degree"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 75,
+      "question": "The maximum deflection of cantilever beam under uniform distributed load is",
+      "options": {
+        "A": "PL3/48EI",
+        "B": "PL3/3EI",
+        "C": "wL2/2",
+        "D": "WL4/8"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 76,
+      "question": "The maximum deflection of post tensioned slab should not exceed",
+      "options": {
+        "A": "L/250",
+        "B": "L/150",
+        "C": "L/200",
+        "D": "L/100"
+      },
+      "answer": "A"
+    }
+  ]
+}

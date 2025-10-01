@@ -1,0 +1,280 @@
+{
+  "title": "Consultants / Structural Engineer Exam - Part 1",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The poisson's Ratio for structural steel is",
+      "options": {
+        "A": "0.2",
+        "B": "0.4",
+        "C": "0.5",
+        "D": "0.3"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "question": "As per DM rules the minimum additional loads to be taken from sides for design shoring is KN/m2",
+      "options": {
+        "A": "15",
+        "B": "10",
+        "C": "25",
+        "D": "20"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 3,
+      "question": "What is the maximum vertical deflection for cantilever steel structural as per BS 5950",
+      "options": {
+        "A": "L/360",
+        "B": "L/200",
+        "C": "L/100",
+        "D": "L/180"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "The effective length factor Ky for column with both ends pinned is",
+      "options": {
+        "A": "2",
+        "B": "0.8",
+        "C": "2.1",
+        "D": "1"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 5,
+      "question": "The Modulus of elasticity for structural steel is N/mm2",
+      "options": {
+        "A": "250,000",
+        "B": "270,000",
+        "C": "290,000",
+        "D": "210,000"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "The yield strength of ASTM A36 steel is MPa",
+      "options": {
+        "A": "200",
+        "B": "3600",
+        "C": "36",
+        "D": "250"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "question": "The column with large radius of gyration is",
+      "options": {
+        "A": "easy to fail in buckling",
+        "B": "easy to fail in crushing",
+        "C": "hard to fail in buckling",
+        "D": "no relation with buckling"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "If d is the distance between flange angles, the vertical stiffeners in plate girders are spaced not greater than",
+      "options": {
+        "A": "d",
+        "B": "1.25d",
+        "C": "1.75d",
+        "D": "1.5d"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "question": "The yield strength of ASTM A516 Grade 60 steel is N/mm2",
+      "options": {
+        "A": "200",
+        "B": "250",
+        "C": "516",
+        "D": "265"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "When a large value of radius of gyration is not required then",
+      "options": {
+        "A": "Channels are placed back to back",
+        "B": "channel flanges are kept outward",
+        "C": "Channel flanges are kept inward",
+        "D": "none of them"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "As per DM rules, the average compressive stress under working loads shall not exceed of the design cube strength of the pile concrete at 28 days",
+      "options": {
+        "A": "20%",
+        "B": "50%",
+        "C": "35%",
+        "D": "25%"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 12,
+      "question": "Mechanical splice (min. 50d) may be used after demonstration to the site engineer that the splice can develop of the specified yield strength of the bars",
+      "options": {
+        "A": "50%",
+        "B": "100%",
+        "C": "150%",
+        "D": "125%"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "The correct lapping location in beams of heavy load slab is",
+      "options": {
+        "A": "mid in top and bottom",
+        "B": "middle in bottom and near support at top bars",
+        "C": "extreme middle third in top and at support in bottom",
+        "D": "anywhere"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "The lap in the RCC column in 3 storey buildings is provided in",
+      "options": {
+        "A": "near slab",
+        "B": "near bottom",
+        "C": "extreme middle third",
+        "D": "center"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "In offshore projects, piles can be driven down to a maximum of meter",
+      "options": {
+        "A": "90m",
+        "B": "100m",
+        "C": "200",
+        "D": "150m"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 16,
+      "question": "The maximum deflection for cantilever beam under uniformly distributed load is",
+      "options": {
+        "A": "PL3/48EI",
+        "B": "PL3/3EI",
+        "C": "wL2/2",
+        "D": "WL4/8"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "question": "As per DM requirement, the modification factor for post tensioning slab is",
+      "options": {
+        "A": "0.35",
+        "B": "0.25",
+        "C": "0.7",
+        "D": "0.5"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "question": "As per DM requirements, the maximum angle of excavation is",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "45",
+        "D": "40"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 19,
+      "question": "As per DIN 1048 standards, water penetration at 28 days test should not exceed max of",
+      "options": {
+        "A": "5mm",
+        "B": "7mm",
+        "C": "15mm",
+        "D": "10mm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "question": "As per ASTM C1202, the rapid chloride penetration at 28 days test for RCC piles should not exceed maximum of Coulombs",
+      "options": {
+        "A": "700",
+        "B": "1500",
+        "C": "1000",
+        "D": "1200"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "As per ACI 318-14 the maximum allowable of elongation in post tensioning tendons is",
+      "options": {
+        "A": "5%",
+        "B": "3%",
+        "C": "10%",
+        "D": "7%"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "If d is the depth of PT slab then maximum spacing for the pt tendons as per ACI 318-05 is",
+      "options": {
+        "A": "5d or 5ft",
+        "B": "10d or 5ft",
+        "C": "7d or 7ft",
+        "D": "7d or 5ft"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "question": "Which test is required for piles during construction",
+      "options": {
+        "A": "Dynamic test",
+        "B": "sonic test",
+        "C": "integrity test",
+        "D": "All"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 24,
+      "question": "The minimum diameter of spiral shear links used for piles steel as per DM rules is",
+      "options": {
+        "A": "6mm",
+        "B": "8mm",
+        "C": "10mm",
+        "D": "12mm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "The maximum acceptable settlement for the piles under working loads is",
+      "options": {
+        "A": "12mm",
+        "B": "10mm",
+        "C": "25mm",
+        "D": "8mm"
+      },
+      "answer": "A"
+    }
+  ]
+}
