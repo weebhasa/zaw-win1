@@ -121,7 +121,14 @@ export default function TestPage() {
     });
     const score = details.filter((d) => d.correct).length;
     navigate("/results", {
-      state: { details, score, total, sessionIndex, totalSessions },
+      state: {
+        details,
+        score,
+        total,
+        sessionIndex,
+        totalSessions,
+        sessionParam: rawSession,
+      },
     });
   }
 
