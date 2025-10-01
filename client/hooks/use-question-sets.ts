@@ -6,6 +6,12 @@ export type QuestionSet = {
   title: string;
 };
 
+async function fetchJson<T = unknown>(url: string): Promise<T> {
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`);
+  return (await res.json()) as T;
+}
+
 export function useQuestionSets() {
   const [sets, setSets] = useState<QuestionSet[] | null>(null);
   const [loading, setLoading] = useState(true);
@@ -16,10 +22,23 @@ export function useQuestionSets() {
     (async () => {
       try {
         setLoading(true);
-        const res = await fetch("/api/question-sets", { cache: "no-store" });
-        if (!res.ok)
-          throw new Error(`Failed to fetch question sets: ${res.status}`);
-        const data = await res.json();
+        // Try API first (works locally and on servers with Node FS access)
+        let data: unknown = [];
+        try {
+          data = await fetchJson("/api/question-sets");
+        } catch {
+          data = [];
+        }
+
+        // Fallback to static manifest for static hosts (e.g., Netlify)
+        if (!Array.isArray(data) || data.length === 0) {
+          try {
+            data = await fetchJson("/question-sets.json");
+          } catch {
+            data = [];
+          }
+        }
+
         if (mounted) setSets(Array.isArray(data) ? data : []);
       } catch (e: any) {
         if (mounted) setError(e?.message ?? "Unknown error");
