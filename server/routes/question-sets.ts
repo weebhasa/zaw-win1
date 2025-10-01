@@ -9,7 +9,7 @@ export const handleQuestionSets: RequestHandler = (_req, res) => {
     const files = fs.readdirSync(publicDir);
     const filtered = files.filter((f) => /Questions\.json$/i.test(f));
 
-    // Attach file mtime and sort by newest first so UI shows latest uploads first
+    // Attach file mtime and sort oldest-first so the newest files appear last in the UI
     const withStat = filtered.map((filename) => {
       try {
         const stat = fs.statSync(path.join(publicDir, filename));
@@ -19,7 +19,8 @@ export const handleQuestionSets: RequestHandler = (_req, res) => {
       }
     });
 
-    withStat.sort((a, b) => b.mtime - a.mtime);
+    // Sort ascending by mtime (oldest first)
+    withStat.sort((a, b) => a.mtime - b.mtime);
 
     const sets = withStat.map(({ filename }) => ({
       filename,
