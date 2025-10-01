@@ -1,5 +1,6 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { useNavigate, useLocation } from "react-router-dom";
 
 export default function ResultsPage() {
   const navigate = useNavigate();
