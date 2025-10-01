@@ -33,12 +33,20 @@ export default function ResultsPage() {
     );
   }
 
-  const { details, score, total, sessionIndex = 0, totalSessions = 1, sessionParam } = state as any;
+  const {
+    details,
+    score,
+    total,
+    sessionIndex = 0,
+    totalSessions = 1,
+    sessionParam,
+  } = state as any;
   const percent = Math.round((score / total) * 100);
   const hasNext = sessionIndex < totalSessions - 1;
 
   // If the original session was a filename (non-numeric), prefer restarting that exact file
-  const isFileSession = typeof sessionParam === "string" && !/^[0-9]+$/.test(sessionParam);
+  const isFileSession =
+    typeof sessionParam === "string" && !/^[0-9]+$/.test(sessionParam);
 
   return (
     <div className="container max-w-4xl py-8">
@@ -53,7 +61,9 @@ export default function ResultsPage() {
               if (isFileSession) {
                 navigate(`/test?session=${encodeURIComponent(sessionParam)}`);
               } else {
-                navigate(`/test?session=${hasNext ? sessionIndex + 1 : sessionIndex}`);
+                navigate(
+                  `/test?session=${hasNext ? sessionIndex + 1 : sessionIndex}`,
+                );
               }
             }}
           >
